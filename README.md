@@ -1,7 +1,7 @@
 # Bioinformatics
 
 ## Introduction
-생물정보학을 위한 프로그램 구현 소스
+생물정보학에 필요한 프로그램 구현 소스
 
 ## Contents
 
