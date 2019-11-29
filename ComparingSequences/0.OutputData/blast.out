@@ -1,0 +1,3947 @@
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= O23559_ARATH/961-1179
+         (219 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965808|ref|YP_002298723.1| glycosyl transferase, family 2,...    25   4.1  
+gi|209964795|ref|YP_002297710.1| GTP-binding protein Era [Rhodos...    24   6.5  
+gi|209966663|ref|YP_002299578.1| prephenate dehydratase, putativ...    24   6.5  
+
+>gi|209965808|ref|YP_002298723.1| glycosyl transferase, family 2,
+           putative [Rhodospirillum centenum SW]
+          Length = 335
+
+ Score = 25.0 bits (53), Expect = 4.1,   Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 18/31 (58%)
+
+Query: 92  EDSRDAAVKGLLGKGKSRIIFNLELNMARAQ 122
+           +D+RD   +G+ G    R +F   L ++RA+
+Sbjct: 59  DDTRDVIARGIAGASNMRSVFEPVLGLSRAR 89
+
+
+>gi|209964795|ref|YP_002297710.1| GTP-binding protein Era
+           [Rhodospirillum centenum SW]
+          Length = 340
+
+ Score = 24.3 bits (51), Expect = 6.5,   Method: Compositional matrix adjust.
+ Identities = 21/53 (39%), Positives = 25/53 (47%), Gaps = 7/53 (13%)
+
+Query: 58  EFVNAINVEDPSCESFEDNSPVAGEHTSPRRDGFEDSRDAAVKGLLGKGKSRI 110
+           E   A  VE  S E F+D S    +    +RDG    + A V   LGKG SRI
+Sbjct: 248 ELPYAATVETESWEEFDDGSVKISQVIYVQRDG----QKAIV---LGKGGSRI 293
+
+
+>gi|209966663|ref|YP_002299578.1| prephenate dehydratase, putative
+           [Rhodospirillum centenum SW]
+          Length = 290
+
+ Score = 24.3 bits (51), Expect = 6.5,   Method: Compositional matrix adjust.
+ Identities = 13/42 (30%), Positives = 20/42 (47%), Gaps = 4/42 (9%)
+
+Query: 15  FVKAQIVIYHQTSPQYKNIDNQVMVTLATLSFFCRRPTILAI 56
+           F  AQ  +  +  P+    D  + + L  L+FF R  TIL +
+Sbjct: 235 FTAAQFYVEVEAHPE----DRPLRLALEELAFFAREVTILGV 272
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q9FZB2_ARATH/31-339
+         (309 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966082|ref|YP_002298997.1| chromosome partitioning protein...    27   1.6  
+gi|209964858|ref|YP_002297773.1| oxidoreductase, short chain deh...    27   2.4  
+
+>gi|209966082|ref|YP_002298997.1| chromosome partitioning protein
+           ParB [Rhodospirillum centenum SW]
+          Length = 299
+
+ Score = 26.9 bits (58), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 12/67 (17%), Positives = 35/67 (52%), Gaps = 3/67 (4%)
+
+Query: 68  TVNSTYLIRGTFLYGNYDGLNQSPSFDLHIGASKWTSVNIVGVTDTVMPEIIHVLTQKR- 126
+           +V    +++   +  + D    +PS+++  G  +W +  + G+ +  +P ++  LT +  
+Sbjct: 71  SVRERGVLQPLLVRKDEDSPPGAPSYEIIAGERRWRAAQLAGLHE--VPVLVRTLTDREA 128
+
+Query: 127 LQVCLVK 133
+           L++ L++
+Sbjct: 129 LEIALIE 135
+
+
+>gi|209964858|ref|YP_002297773.1| oxidoreductase, short chain
+           dehydrogenase [Rhodospirillum centenum SW]
+          Length = 253
+
+ Score = 26.6 bits (57), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 20/31 (64%)
+
+Query: 104 SVNIVGVTDTVMPEIIHVLTQKRLQVCLVKT 134
+           +VN+ GV +TV P I   + ++R Q+ L+ +
+Sbjct: 109 AVNLDGVLNTVQPLIPRFVARRRGQIALMSS 139
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q9SVC7_ARATH/81-299
+         (219 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966717|ref|YP_002299632.1| hypothetical protein RC1_3462 [...    25   3.3  
+gi|209966978|ref|YP_002299893.1| TonB-dependent receptor, putati...    25   4.2  
+gi|209964451|ref|YP_002297366.1| phage-related hypothetical prot...    24   7.9  
+gi|209965503|ref|YP_002298418.1| molybdenum transport system per...    24   9.3  
+
+>gi|209966717|ref|YP_002299632.1| hypothetical protein RC1_3462
+           [Rhodospirillum centenum SW]
+          Length = 428
+
+ Score = 25.4 bits (54), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 25/54 (46%), Gaps = 1/54 (1%)
+
+Query: 132 VIGETLTAGDKEQPKVPSWVVDEMKKERETGTVTFSLRM-AVWVTFKTDGWAAR 184
+           +IG +L AGD+ Q  + S  +D M K  +   +    R  A  + FK   W  R
+Sbjct: 338 LIGASLKAGDRRQADLVSTRLDGMLKGADKSPLVLIQRARADRLLFKDQRWRPR 391
+
+
+>gi|209966978|ref|YP_002299893.1| TonB-dependent receptor, putative
+           [Rhodospirillum centenum SW]
+          Length = 695
+
+ Score = 25.0 bits (53), Expect = 4.2,   Method: Composition-based stats.
+ Identities = 16/67 (23%), Positives = 28/67 (41%)
+
+Query: 122 PVFVETKKSVVIGETLTAGDKEQPKVPSWVVDEMKKERETGTVTFSLRMAVWVTFKTDGW 181
+           P+ V  + ++++  T+          P+   D   ++R  G  TF L   V V  +TD  
+Sbjct: 2   PMPVRRRLALLLASTVLTATVLTAATPAGAQDRQPQDRNRGAATFELGEIVIVGRRTDRL 61
+
+Query: 182 AARESGL 188
+           A   + L
+Sbjct: 62  AIGSTSL 68
+
+
+>gi|209964451|ref|YP_002297366.1| phage-related hypothetical protein
+           [Rhodospirillum centenum SW]
+          Length = 850
+
+ Score = 23.9 bits (50), Expect = 7.9,   Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 20/42 (47%), Gaps = 1/42 (2%)
+
+Query: 102 LVYHQNAVGEDEFLATAFFQPVFVETKKSVVIGETLTAGDKE 143
+           L+  QNA G +++    FF P+F       V G +  AGD  
+Sbjct: 76  LIGLQNAYGPEKYF-FEFFNPLFAVADTLSVAGVSTVAGDDS 116
+
+
+>gi|209965503|ref|YP_002298418.1| molybdenum transport system
+           permease protein modB [Rhodospirillum centenum SW]
+          Length = 231
+
+ Score = 23.9 bits (50), Expect = 9.3,   Method: Compositional matrix adjust.
+ Identities = 24/68 (35%), Positives = 30/68 (44%), Gaps = 6/68 (8%)
+
+Query: 152 VDEMKKERETGTVTFSLRMAVWVTFKTDGWAARESGLKVFCGKLKVGFEG-ISGNGAVLL 210
+           +D      E   +  SLR+AVW T      AA   GL V     +  F G +  +G V L
+Sbjct: 1   MDGWLTPEELTAIRISLRVAVWATL-----AALPPGLLVAWLLARRRFPGRLLLDGLVHL 55
+
+Query: 211 PKPLPCVV 218
+           P  LP VV
+Sbjct: 56  PLVLPPVV 63
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q9SJW1_ARATH/261-514
+         (254 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965968|ref|YP_002298883.1| AMP-dependent synthetase and li...    26   2.6  
+gi|209964292|ref|YP_002297207.1| hypothetical protein RC1_0970 [...    25   6.3  
+gi|209963999|ref|YP_002296914.1| hypothetical protein RC1_0666 [...    25   6.5  
+
+>gi|209965968|ref|YP_002298883.1| AMP-dependent synthetase and
+           ligase, putative [Rhodospirillum centenum SW]
+          Length = 509
+
+ Score = 25.8 bits (55), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 27/63 (42%), Gaps = 2/63 (3%)
+
+Query: 13  DRAVVPVGMEGDDGFTVVQRTARRPA-APVQKMVFAVGASGGRSKQRLRELPKNQGVDLA 71
+           ++A VP GM G + F        RP   P   +++  G + GR K   R  P  +   L 
+Sbjct: 125 EQAAVPPGMTGWEDFLAAHAPWDRPPQLPPASLIYTSGTT-GRPKGVRRLPPTPEQYALV 183
+
+Query: 72  NRF 74
+           NR 
+Sbjct: 184 NRM 186
+
+
+>gi|209964292|ref|YP_002297207.1| hypothetical protein RC1_0970
+           [Rhodospirillum centenum SW]
+          Length = 285
+
+ Score = 24.6 bits (52), Expect = 6.3,   Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 17/27 (62%)
+
+Query: 163 RGLIFGPTKDANSVPVGEDLLSNGKRL 189
+           RG+I+G + D   +P   ++L NG R+
+Sbjct: 11  RGVIYGRSLDQRPLPPAAEVLPNGIRV 37
+
+
+>gi|209963999|ref|YP_002296914.1| hypothetical protein RC1_0666
+           [Rhodospirillum centenum SW]
+          Length = 165
+
+ Score = 24.6 bits (52), Expect = 6.5,   Method: Compositional matrix adjust.
+ Identities = 15/34 (44%), Positives = 18/34 (52%), Gaps = 2/34 (5%)
+
+Query: 35  RRPAAPVQKMVFAVGASGGRSKQR--LRELPKNQ 66
+           RRPA PV +    V A GGR  +R  LR  P+  
+Sbjct: 105 RRPAFPVSQWPVPVRADGGRRTRRSQLRGQPRRW 138
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q9C8B1_ARATH/4-250
+         (247 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964867|ref|YP_002297782.1| leucyl aminopeptidase PepA, put...    27   1.1  
+gi|209967274|ref|YP_002300189.1| cytochrome D ubiquinol oxidase,...    26   2.5  
+gi|209966598|ref|YP_002299513.1| CRISPR-associated helicase Cas3...    26   2.7  
+gi|209966042|ref|YP_002298957.1| kynureninase [Rhodospirillum ce...    25   4.7  
+
+>gi|209964867|ref|YP_002297782.1| leucyl aminopeptidase PepA,
+           putative [Rhodospirillum centenum SW]
+          Length = 498
+
+ Score = 26.9 bits (58), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 18/63 (28%), Positives = 30/63 (47%), Gaps = 12/63 (19%)
+
+Query: 19  VKVLSIWDHPPNLN----GDVTTMILVDAKHHRIVATIRRLNLREKSRRVLQEGLWFNIS 74
+           V V+++ ++ P+ N    GD+ T +           TI  LN   + R VL + LW+   
+Sbjct: 310 VGVVALAENMPDGNAQRPGDIVTSLSGQ--------TIEVLNTDAEGRLVLADALWYTQE 361
+
+Query: 75  QFR 77
+           QF+
+Sbjct: 362 QFK 364
+
+
+>gi|209967274|ref|YP_002300189.1| cytochrome D ubiquinol oxidase,
+           subunit I [Rhodospirillum centenum SW]
+          Length = 523
+
+ Score = 25.8 bits (55), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 17/70 (24%), Positives = 36/70 (51%), Gaps = 4/70 (5%)
+
+Query: 107 SELVKSDFTDYLFPNELEDSATDNVVDVTDAIGVVASVSSIKRFPYVRN---KGETDYEA 163
+           +E   +  T   FP++ E   TD++V+V  A+G++A+ S     P + +    G T  E 
+Sbjct: 263 TETPPAPLTIIGFPDQ-ESRTTDHLVEVPAALGLIATRSLDTEVPGIADLVAHGRTRIEN 321
+
+Query: 164 RYVSFELMDN 173
+             ++++ + +
+Sbjct: 322 GILAYDALQS 331
+
+
+>gi|209966598|ref|YP_002299513.1| CRISPR-associated helicase Cas3,
+           putative [Rhodospirillum centenum SW]
+          Length = 961
+
+ Score = 25.8 bits (55), Expect = 2.7,   Method: Composition-based stats.
+ Identities = 12/43 (27%), Positives = 20/43 (46%), Gaps = 3/43 (6%)
+
+Query: 57  LREKSRRVLQEGLWFNISQFRVIPSTHRVETYVLNRLHIMFRW 99
+           LR +   V   GLW    +  ++   H  ++Y+   LH + RW
+Sbjct: 432 LRARYATVRLAGLW---RKVLLVDEVHAYDSYMQTLLHALLRW 471
+
+
+>gi|209966042|ref|YP_002298957.1| kynureninase [Rhodospirillum
+           centenum SW]
+          Length = 412
+
+ Score = 25.0 bits (53), Expect = 4.7,   Method: Compositional matrix adjust.
+ Identities = 12/18 (66%), Positives = 13/18 (72%)
+
+Query: 47  RIVATIRRLNLREKSRRV 64
+           RIVA   R  LREKSRR+
+Sbjct: 292 RIVARADRARLREKSRRM 309
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q9FKT2_ARATH/341-591
+         (251 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209963672|ref|YP_002296587.1| TonB dependent receptor, putati...    26   2.3  
+
+>gi|209963672|ref|YP_002296587.1| TonB dependent receptor, putative
+           [Rhodospirillum centenum SW]
+          Length = 799
+
+ Score = 26.2 bits (56), Expect = 2.3,   Method: Composition-based stats.
+ Identities = 17/57 (29%), Positives = 29/57 (50%), Gaps = 1/57 (1%)
+
+Query: 64  IVPPLSDKASTSDGDKFITTVESIESAQSQLLDADTENTFANTSVREGGQILR-FGA 119
+           ++P L+ + S S G +  T  ++  +  SQ LD  T NTF +  +     + + FGA
+Sbjct: 505 VLPNLALRGSASTGFRAPTPGQAYSTRTSQGLDTVTLNTFTSGRLEPSNPVAQYFGA 561
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q9LI02_ORYSJ/191-419
+         (229 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965260|ref|YP_002298175.1| rod shape-determining protein M...    26   1.6  
+gi|209965476|ref|YP_002298391.1| hypothetical protein RC1_2191 [...    24   8.2  
+
+>gi|209965260|ref|YP_002298175.1| rod shape-determining protein MreB
+           [Rhodospirillum centenum SW]
+          Length = 346
+
+ Score = 26.2 bits (56), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 19/37 (51%)
+
+Query: 156 FNGKLQPNASNGNTQVYMNGREITKIELRVLKIAQVQ 192
+           F+  +  +    NT VY+ GR I   E  V+ IA V+
+Sbjct: 9   FSADMAIDLGTANTLVYVKGRGIVLNEPSVVAIANVR 45
+
+
+>gi|209965476|ref|YP_002298391.1| hypothetical protein RC1_2191
+           [Rhodospirillum centenum SW]
+          Length = 272
+
+ Score = 23.9 bits (50), Expect = 8.2,   Method: Compositional matrix adjust.
+ Identities = 12/27 (44%), Positives = 18/27 (66%), Gaps = 1/27 (3%)
+
+Query: 126 KPGRYWYDKES-GLWGKEGEKPDRVVS 151
+           +PGRYW + +S G    EG + DR++S
+Sbjct: 236 EPGRYWLNAQSRGRTTVEGLEMDRMMS 262
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q8RV53_ARATH/1-162
+         (162 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964216|ref|YP_002297131.1| hypothetical protein RC1_0888 [...    25   1.9  
+gi|209963373|ref|YP_002296288.1| ABC transporter, ATP-binding pr...    25   2.0  
+gi|209966975|ref|YP_002299890.1| hypothetical protein RC1_3735 [...    24   4.9  
+
+>gi|209964216|ref|YP_002297131.1| hypothetical protein RC1_0888
+           [Rhodospirillum centenum SW]
+          Length = 116
+
+ Score = 25.4 bits (54), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 16/23 (69%)
+
+Query: 110 LAVVKSVSAPTTETNGEAVDGAE 132
+           LA ++ V A  TET+GE + GAE
+Sbjct: 76  LAALEGVQAALTETHGETLGGAE 98
+
+
+>gi|209963373|ref|YP_002296288.1| ABC transporter, ATP-binding
+           protein, putative [Rhodospirillum centenum SW]
+          Length = 613
+
+ Score = 25.4 bits (54), Expect = 2.0,   Method: Composition-based stats.
+ Identities = 23/100 (23%), Positives = 41/100 (41%), Gaps = 8/100 (8%)
+
+Query: 51  RELGE--SFGTAKYIPRELESVRVESQVVQFVTAPTTETNGDVDDGAGKYFSSEVEGVHV 108
+           R +GE  ++G       E+E    ++   +F+    T  +  V +   K    E + V +
+Sbjct: 457 RTIGENIAYGRLGATQAEVEEAARQAHAHEFIARRPTGYDTVVGEQGVKLSGGERQRVAI 516
+
+Query: 109 ELAVVKSVSAPTTETNGEAVDGAEEWLVRGIRRDDKALWT 148
+             A++K       +    A+D   E L++G      ALWT
+Sbjct: 517 ARALLKDARILVLDEATSALDSESEHLIQG------ALWT 550
+
+
+>gi|209966975|ref|YP_002299890.1| hypothetical protein RC1_3735
+           [Rhodospirillum centenum SW]
+          Length = 180
+
+ Score = 23.9 bits (50), Expect = 4.9,   Method: Compositional matrix adjust.
+ Identities = 10/36 (27%), Positives = 20/36 (55%)
+
+Query: 35  HSIEPSVGGDIQKFDWRELGESFGTAKYIPRELESV 70
+           +++ P+V    QKF    + +  G A   P+E+E++
+Sbjct: 77  YAVPPAVASPEQKFGAENVRQPAGVAAPRPQEIEAL 112
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q9ZU21_ARATH/514-781
+         (268 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209963797|ref|YP_002296712.1| RNA pseudouridine synthase, put...    26   2.9  
+gi|209963444|ref|YP_002296359.1| type III restriction-modificati...    24   8.7  
+
+>gi|209963797|ref|YP_002296712.1| RNA pseudouridine synthase,
+           putative [Rhodospirillum centenum SW]
+          Length = 242
+
+ Score = 25.8 bits (55), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 14/25 (56%)
+
+Query: 203 DADIEMVDNPSGLPSTSAQVCVSHL 227
+           DAD+ ++D P GLP       V HL
+Sbjct: 16  DADVLILDKPHGLPVHYGTKTVEHL 40
+
+
+>gi|209963444|ref|YP_002296359.1| type III restriction-modification
+           system methyltransferase, putative [Rhodospirillum
+           centenum SW]
+          Length = 554
+
+ Score = 24.3 bits (51), Expect = 8.7,   Method: Compositional matrix adjust.
+ Identities = 11/37 (29%), Positives = 21/37 (56%)
+
+Query: 145 YVTQKERPVEEATVDTEMEEVPSNVSARVSEVDLLDN 181
+           ++ +++RP  E  +  E  E   +  ARV++ D+ DN
+Sbjct: 11  WIGKEDRPRLEPRILLEDPEKSHHADARVTDEDIFDN 47
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q9ZT72_ARATH/558-750
+         (193 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966678|ref|YP_002299593.1| cytochrome b [Rhodospirillum ce...    24   7.4  
+
+>gi|209966678|ref|YP_002299593.1| cytochrome b [Rhodospirillum
+           centenum SW]
+          Length = 434
+
+ Score = 23.9 bits (50), Expect = 7.4,   Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 13/18 (72%)
+
+Query: 129 PYVIPQVYGLPIIGVLTS 146
+           P+++P+ Y LP  G+L S
+Sbjct: 283 PHIVPEWYFLPFYGILRS 300
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q94010_CAEEL/1-359
+         (359 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965241|ref|YP_002298156.1| 3-hydroxyacyl-CoA dehydrogenase...    29   0.46 
+
+>gi|209965241|ref|YP_002298156.1| 3-hydroxyacyl-CoA dehydrogenase,
+           putative [Rhodospirillum centenum SW]
+          Length = 781
+
+ Score = 28.9 bits (63), Expect = 0.46,   Method: Compositional matrix adjust.
+ Identities = 25/82 (30%), Positives = 36/82 (43%), Gaps = 15/82 (18%)
+
+Query: 178 KLNFKTTDENWRETIHKDVVKIIY------KLVSLQNLAIYWNS-----STEFISDLD-- 224
+           KL F   D ++R+    D V ++       K V+    A  W+        EF S ++  
+Sbjct: 429 KLQFLGVDGDYRDVKRPDGVLLLSDVKRASKPVAKNGSAALWDIGDGVLCLEFTSKMNAL 488
+
+Query: 225 --DKEAIRKKLQETIHNGKNGP 244
+             D  A+ +K  ETI NGK GP
+Sbjct: 489 DTDIMAMIRKAIETIGNGKAGP 510
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= A4V4W2_CAEEL/334-646
+         (313 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964361|ref|YP_002297276.1| hypothetical protein RC1_1040 [...    30   0.23 
+
+>gi|209964361|ref|YP_002297276.1| hypothetical protein RC1_1040
+           [Rhodospirillum centenum SW]
+          Length = 288
+
+ Score = 29.6 bits (65), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 30/54 (55%), Gaps = 2/54 (3%)
+
+Query: 135 FCEVLTIANEDLCRKSIKA-YEDEVSKKQPDVLFIIDKHSKLLSPLTIPIENDQ 187
+           FC+ L+ A ED   KS+KA  E  +  +  +VLF    + + L P  + IEN++
+Sbjct: 147 FCDDLSFAAEDAHYKSLKAVLEGGIEGRPANVLFYATSNRRHLMPRDM-IENER 199
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q94256_CAEEL/1-173
+         (173 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= B7E2K1_CAEEL/8-322
+         (315 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965297|ref|YP_002298212.1| DNA-directed RNA polymerase, si...    28   0.76 
+
+>gi|209965297|ref|YP_002298212.1| DNA-directed RNA polymerase, sigma
+           subunit RpoD [Rhodospirillum centenum SW]
+          Length = 648
+
+ Score = 28.1 bits (61), Expect = 0.76,   Method: Compositional matrix adjust.
+ Identities = 15/42 (35%), Positives = 24/42 (57%), Gaps = 1/42 (2%)
+
+Query: 235 YQGDILRVAEQFQEILANDLHHYYVEEMNRPRYFQRLARLLK 276
+           Y+G +LR+A   +    + LHHYY  E++ P + +R   L K
+Sbjct: 319 YEGKLLRLATDCKIKREDFLHHYYGSELD-PNWLERCRGLSK 359
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= B9AH89_CAEEL/596-1007
+         (412 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209967064|ref|YP_002299979.1| methyl-accepting chemotaxis pro...    29   0.50 
+gi|209964867|ref|YP_002297782.1| leucyl aminopeptidase PepA, put...    27   1.8  
+gi|209964753|ref|YP_002297668.1| phosphodiesterase, putative [Rh...    27   3.1  
+
+>gi|209967064|ref|YP_002299979.1| methyl-accepting chemotaxis
+           protein, putative [Rhodospirillum centenum SW]
+          Length = 669
+
+ Score = 29.3 bits (64), Expect = 0.50,   Method: Compositional matrix adjust.
+ Identities = 20/65 (30%), Positives = 28/65 (43%), Gaps = 14/65 (21%)
+
+Query: 32  RKGCTPLLPHVAIMFYLIPLLHIIMGIFDKYIFNPLWKYSDTLDNTTSFPILKTRKATLK 91
+           R G   L  HV  +FY+   LH+I G+ D    +                 L TR+ATL+
+Sbjct: 90  RVGRRHLAAHVPPVFYMAGYLHLIRGLLDALAEDRGG--------------LLTRRATLR 135
+
+Query: 92  NAVNL 96
+           + V L
+Sbjct: 136 HMVRL 140
+
+
+>gi|209964867|ref|YP_002297782.1| leucyl aminopeptidase PepA,
+           putative [Rhodospirillum centenum SW]
+          Length = 498
+
+ Score = 27.3 bits (59), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 16/43 (37%), Positives = 21/43 (48%), Gaps = 2/43 (4%)
+
+Query: 128 LLDTIVNGTPEGTLEKMGQCWAKFGADKQAWFQSFCGNHLKLL 170
+            L   VNGTP   L+  G  W+K  ADK    +   G  ++LL
+Sbjct: 448 FLQRFVNGTPWAHLDIAGTAWSK--ADKAVCAKGATGFGVRLL 488
+
+
+>gi|209964753|ref|YP_002297668.1| phosphodiesterase, putative
+           [Rhodospirillum centenum SW]
+          Length = 265
+
+ Score = 26.6 bits (57), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 13/22 (59%)
+
+Query: 127 LLLDTIVNGTPEGTLEKMGQCW 148
+           L LDT+V G PEG L+     W
+Sbjct: 116 LALDTVVPGRPEGALDAPRLAW 137
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q21140_CAEEL/1-131
+         (131 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= O17516_CAEEL/701-830
+         (130 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965421|ref|YP_002298336.1| hydroxypyruvate reductase, puta...    27   0.42 
+gi|209964666|ref|YP_002297581.1| arginine-tRNA-protein transfera...    23   6.2  
+
+>gi|209965421|ref|YP_002298336.1| hydroxypyruvate reductase,
+           putative [Rhodospirillum centenum SW]
+          Length = 429
+
+ Score = 26.9 bits (58), Expect = 0.42,   Method: Composition-based stats.
+ Identities = 15/52 (28%), Positives = 26/52 (50%), Gaps = 7/52 (13%)
+
+Query: 2   PKIKEPET-------LQKSGSQPLKAKGENLSKQIPKIPKQGNKMLFKAKFH 46
+           P + +P T       L K G +P  A   +L++   + PK G+  L +++FH
+Sbjct: 211 PTVADPTTVADARAVLAKYGIEPPAAVRAHLARGDDETPKPGDPRLARSEFH 262
+
+
+>gi|209964666|ref|YP_002297581.1| arginine-tRNA-protein
+          transferase, putative [Rhodospirillum centenum SW]
+          Length = 249
+
+ Score = 23.1 bits (48), Expect = 6.2,   Method: Compositional matrix adjust.
+ Identities = 10/28 (35%), Positives = 12/28 (42%)
+
+Query: 37 NKMLFKAKFHRSFTVADEPKSPSCAYCT 64
+          N  L +A F RS  +   P  P C  C 
+Sbjct: 46 NSTLSRAGFRRSHDIVYRPVCPGCTACV 73
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= O45617_CAEEL/351-658
+         (308 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966695|ref|YP_002299610.1| outer membrane autotransporter ...    27   1.4  
+
+>gi|209966695|ref|YP_002299610.1| outer membrane autotransporter
+           barrel domain protein [Rhodospirillum centenum SW]
+          Length = 613
+
+ Score = 27.3 bits (59), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 16/34 (47%), Gaps = 1/34 (2%)
+
+Query: 76  KANGNLSVMALGNSYVLNFNDHIRSQFNYNYSEW 109
+            A+G   + A G  YV    D I  QF Y+Y  W
+Sbjct: 334 GADGRYGLYAFGG-YVDGERDRIPGQFGYDYDAW 366
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= O02230_CAEEL/68-393
+         (326 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966288|ref|YP_002299203.1| methyl-accepting chemotaxis pro...    27   1.2  
+gi|209965476|ref|YP_002298391.1| hypothetical protein RC1_2191 [...    25   7.1  
+
+>gi|209966288|ref|YP_002299203.1| methyl-accepting chemotaxis
+           protein, putative [Rhodospirillum centenum SW]
+          Length = 726
+
+ Score = 27.3 bits (59), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 18/74 (24%), Positives = 32/74 (43%), Gaps = 1/74 (1%)
+
+Query: 82  QVLGYQDCATFLQKSKQLLEEIEDSFQIYPINLMRNIARRGAKSDLHLIIDTDM-MMSTN 140
+           QVLG  D A  +    QL++ I     +  +N     AR G       ++  ++  ++  
+Sbjct: 547 QVLGLNDAAQKIGTVVQLIQSIAAQTNLLALNATIEAARAGEAGKGFAVVAGEVKSLANQ 606
+
+Query: 141 FAKMVKPIANRMID 154
+            AK  + IA ++ D
+Sbjct: 607 TAKATEEIAGQVSD 620
+
+
+>gi|209965476|ref|YP_002298391.1| hypothetical protein RC1_2191
+          [Rhodospirillum centenum SW]
+          Length = 272
+
+ Score = 25.0 bits (53), Expect = 7.1,   Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 23/48 (47%), Gaps = 8/48 (16%)
+
+Query: 4  LEPVTLAIHGTPEVLQLLGNKPLNWDGPISFGLFVDFHSQKALNYISM 51
+          LEP T  + GT + + +        DG IS  LFV  H    LN +S+
+Sbjct: 30 LEPSTFTLSGTDQWITV--------DGAISNDLFVPNHVPLPLNGLSV 69
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q95XA4_CAEEL/511-724
+         (214 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964476|ref|YP_002297391.1| hypothetical protein RC1_1164 [...    25   5.0  
+
+>gi|209964476|ref|YP_002297391.1| hypothetical protein RC1_1164
+           [Rhodospirillum centenum SW]
+          Length = 271
+
+ Score = 24.6 bits (52), Expect = 5.0,   Method: Compositional matrix adjust.
+ Identities = 15/37 (40%), Positives = 19/37 (51%), Gaps = 2/37 (5%)
+
+Query: 6   GGYLKQFENDLEEVGATRRAWFQMYTGNHTKLILSEK 42
+           GG    FE DL+E    R AW +M  G  T  +L E+
+Sbjct: 128 GGSGLVFEQDLKEAPVARAAWERM--GFDTARVLFEQ 162
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= A1ZB10_DROME/91-369
+         (279 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966228|ref|YP_002299143.1| oxygen-independent coproporphyr...    26   3.5  
+
+>gi|209966228|ref|YP_002299143.1| oxygen-independent
+           coproporphyrinogen III oxidase, putative [Rhodospirillum
+           centenum SW]
+          Length = 387
+
+ Score = 25.8 bits (55), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 9/34 (26%), Positives = 18/34 (52%)
+
+Query: 106 QNTSYESTKQIRQEINIPPHSLTGHSKSHINSRH 139
+           Q   YE T+ + +   +P + ++ H++    SRH
+Sbjct: 221 QGELYEETQALLEAAGLPAYEVSNHARPGEESRH 254
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q0KI29_DROME/24-68
+         (45 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q0E9B1_DROME/77-174
+         (98 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965572|ref|YP_002298487.1| hydrolase, alpha [Rhodospirillu...    24   1.4  
+gi|209966477|ref|YP_002299392.1| PepSY-associated TM helix, puta...    24   2.1  
+gi|209963974|ref|YP_002296889.1| ATP-dependent RNA helicase, DEA...    23   2.5  
+gi|209965666|ref|YP_002298581.1| hypothetical protein RC1_2383 [...    23   2.9  
+
+>gi|209965572|ref|YP_002298487.1| hydrolase, alpha [Rhodospirillum
+           centenum SW]
+          Length = 633
+
+ Score = 24.3 bits (51), Expect = 1.4,   Method: Composition-based stats.
+ Identities = 9/22 (40%), Positives = 13/22 (59%)
+
+Query: 59  DEMSYHSINYKLTEILPFPEGN 80
+           D M+     + + E LPFPEG+
+Sbjct: 378 DSMARACAEWPVRETLPFPEGS 399
+
+
+>gi|209966477|ref|YP_002299392.1| PepSY-associated TM helix,
+           putative [Rhodospirillum centenum SW]
+          Length = 564
+
+ Score = 23.9 bits (50), Expect = 2.1,   Method: Composition-based stats.
+ Identities = 12/54 (22%), Positives = 27/54 (50%), Gaps = 5/54 (9%)
+
+Query: 15  NMTLDGCRFLKSRNPNPIALYFYNLFKDYSNINHTCPYNHDLVLDEMSYHSINY 68
+           ++T DG   +++R P+P+A +   L +         P +H++ +  M   ++ Y
+Sbjct: 115 SLTPDGALQVETRGPSPVAQFIDELHRQVG-----LPLDHEIAMPLMGAVALLY 163
+
+
+>gi|209963974|ref|YP_002296889.1| ATP-dependent RNA helicase, DEAD
+           [Rhodospirillum centenum SW]
+          Length = 838
+
+ Score = 23.5 bits (49), Expect = 2.5,   Method: Composition-based stats.
+ Identities = 11/29 (37%), Positives = 17/29 (58%)
+
+Query: 55  DLVLDEMSYHSINYKLTEILPFPEGNYKL 83
+           D +LDE +   I   + E+LP P+G  +L
+Sbjct: 808 DDLLDEAARELIAEAVPELLPRPDGQGRL 836
+
+
+>gi|209965666|ref|YP_002298581.1| hypothetical protein RC1_2383
+           [Rhodospirillum centenum SW]
+          Length = 364
+
+ Score = 23.5 bits (49), Expect = 2.9,   Method: Composition-based stats.
+ Identities = 8/18 (44%), Positives = 13/18 (72%)
+
+Query: 66  INYKLTEILPFPEGNYKL 83
+           I+++   I PFP+GN +L
+Sbjct: 187 IHHQFESIHPFPDGNGRL 204
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q4ABG0_DROME/75-180
+         (106 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209963528|ref|YP_002296443.1| flagellar biosynthesis protein ...    24   1.9  
+gi|209966508|ref|YP_002299423.1| CBS domain protein [Rhodospiril...    24   2.2  
+gi|209964983|ref|YP_002297898.1| hypothetical protein RC1_1687 [...    23   3.7  
+
+>gi|209963528|ref|YP_002296443.1| flagellar biosynthesis protein
+           FliP [Rhodospirillum centenum SW]
+          Length = 267
+
+ Score = 24.3 bits (51), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 12/20 (60%)
+
+Query: 48  VVLSCPFKANFTYKMDDWFL 67
+           V++S PFK  F   +D W L
+Sbjct: 235 VIISLPFKIIFFVMVDGWLL 254
+
+
+>gi|209966508|ref|YP_002299423.1| CBS domain protein [Rhodospirillum
+           centenum SW]
+          Length = 138
+
+ Score = 23.9 bits (50), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 10/25 (40%), Positives = 15/25 (60%)
+
+Query: 77  PVGQFRTVTEYFTQQRLIIRVVAHG 101
+           PVG+   +    T + ++IRVVA G
+Sbjct: 36  PVGEAADLRGILTDRDVLIRVVAQG 60
+
+
+>gi|209964983|ref|YP_002297898.1| hypothetical protein RC1_1687
+           [Rhodospirillum centenum SW]
+          Length = 1211
+
+ Score = 23.1 bits (48), Expect = 3.7,   Method: Composition-based stats.
+ Identities = 8/13 (61%), Positives = 9/13 (69%)
+
+Query: 65  WFLDEEELPPFAP 77
+           W+LD E L PF P
+Sbjct: 130 WWLDPETLGPFRP 142
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= A1ZB13_DROME/5-50
+         (46 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q4ABJ5_DROME/1-76
+         (76 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= A1Z875_DROME/1-197
+         (197 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966774|ref|YP_002299689.1| hypothetical protein RC1_3520 [...    25   3.7  
+
+>gi|209966774|ref|YP_002299689.1| hypothetical protein RC1_3520
+           [Rhodospirillum centenum SW]
+          Length = 194
+
+ Score = 25.0 bits (53), Expect = 3.7,   Method: Compositional matrix adjust.
+ Identities = 9/14 (64%), Positives = 10/14 (71%)
+
+Query: 37  TMHDFCCDLHDESP 50
+           T  DF CDLHD +P
+Sbjct: 128 TAEDFLCDLHDLAP 141
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q9W4N8_DROME/131-268
+         (138 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965157|ref|YP_002298072.1| TonB-dependent receptor, putati...    24   3.7  
+
+>gi|209965157|ref|YP_002298072.1| TonB-dependent receptor, putative
+           [Rhodospirillum centenum SW]
+          Length = 728
+
+ Score = 23.9 bits (50), Expect = 3.7,   Method: Composition-based stats.
+ Identities = 9/29 (31%), Positives = 16/29 (55%)
+
+Query: 78  IELRRENLHLKDQITRFRSSPAVKQVNEP 106
+           I +R   L + D   RF  +PA++ + +P
+Sbjct: 73  IAVRAPGLVVSDPFGRFNPAPAIRGLTQP 101
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q0GA02_DROME/255-399
+         (145 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965472|ref|YP_002298387.1| succinyl-CoA synthetase beta ch...    24   4.7  
+
+>gi|209965472|ref|YP_002298387.1| succinyl-CoA synthetase beta
+          chain [Rhodospirillum centenum SW]
+          Length = 398
+
+ Score = 23.9 bits (50), Expect = 4.7,   Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 13/21 (61%)
+
+Query: 40 AVEERVHSGANGKSRFQGKPN 60
+           V+ ++H+G  G  RF+  PN
+Sbjct: 44 VVKSQIHAGGRGAGRFKDDPN 64
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= GAG2_DROME/1-100
+         (100 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209963851|ref|YP_002296766.1| trehalose synthase [Rhodospiril...    25   1.2  
+gi|209965924|ref|YP_002298839.1| hypothetical protein RC1_2651 [...    24   1.5  
+gi|209967169|ref|YP_002300084.1| citrate lyase beta chain [Rhodo...    23   4.1  
+gi|209964595|ref|YP_002297510.1| phage protease [Rhodospirillum ...    23   4.6  
+gi|209966943|ref|YP_002299858.1| nitrogen fixation protein, FixC...    22   5.9  
+gi|209967069|ref|YP_002299984.1| hypothetical protein RC1_3829 [...    22   6.0  
+
+>gi|209963851|ref|YP_002296766.1| trehalose synthase [Rhodospirillum
+           centenum SW]
+          Length = 1111
+
+ Score = 24.6 bits (52), Expect = 1.2,   Method: Composition-based stats.
+ Identities = 9/19 (47%), Positives = 15/19 (78%)
+
+Query: 13  LAEARRQLKDIMPFKGDPE 31
+           LAEA +  +D++P+ G+PE
+Sbjct: 245 LAEANQWPEDVLPYFGNPE 263
+
+
+>gi|209965924|ref|YP_002298839.1| hypothetical protein RC1_2651
+           [Rhodospirillum centenum SW]
+          Length = 400
+
+ Score = 24.3 bits (51), Expect = 1.5,   Method: Composition-based stats.
+ Identities = 13/32 (40%), Positives = 15/32 (46%)
+
+Query: 60  GAIERNLDGQITRSLGLPNVEDWPTLKARLIA 91
+           G  E+ L       L LP+  DWP L  RL A
+Sbjct: 120 GRAEQILKTDQDNGLILPDGADWPDLPGRLAA 151
+
+
+>gi|209967169|ref|YP_002300084.1| citrate lyase beta chain
+           [Rhodospirillum centenum SW]
+          Length = 288
+
+ Score = 22.7 bits (47), Expect = 4.1,   Method: Compositional matrix adjust.
+ Identities = 10/26 (38%), Positives = 15/26 (57%)
+
+Query: 8   LSDINLAEARRQLKDIMPFKGDPETL 33
+           L  +  AEA RQ + ++   G PE+L
+Sbjct: 94  LPKVETAEALRQAERVLAAAGAPESL 119
+
+
+>gi|209964595|ref|YP_002297510.1| phage protease [Rhodospirillum
+           centenum SW]
+          Length = 600
+
+ Score = 22.7 bits (47), Expect = 4.6,   Method: Composition-based stats.
+ Identities = 12/39 (30%), Positives = 19/39 (48%), Gaps = 5/39 (12%)
+
+Query: 67  DGQITRSLGLPNVEDWPTLKA-----RLIAEFKIQTPNY 100
+           D  +TR++G     D+P L A      L A+++   P Y
+Sbjct: 306 DALLTRAIGAHGTSDFPALLADAANKALEAQYEAAAPTY 344
+
+
+>gi|209966943|ref|YP_002299858.1| nitrogen fixation protein, FixC
+           [Rhodospirillum centenum SW]
+          Length = 433
+
+ Score = 22.3 bits (46), Expect = 5.9,   Method: Composition-based stats.
+ Identities = 10/29 (34%), Positives = 18/29 (62%), Gaps = 3/29 (10%)
+
+Query: 20  LKDIMPFKGDPETLHT---FISRVDYVIS 45
+           ++D+  ++  PETLHT   F +   ++IS
+Sbjct: 359 MQDLKKYRNLPETLHTNKQFFTTYPHLIS 387
+
+
+>gi|209967069|ref|YP_002299984.1| hypothetical protein RC1_3829
+           [Rhodospirillum centenum SW]
+          Length = 316
+
+ Score = 22.3 bits (46), Expect = 6.0,   Method: Compositional matrix adjust.
+ Identities = 7/18 (38%), Positives = 9/18 (50%)
+
+Query: 68  GQITRSLGLPNVEDWPTL 85
+           G +   +GLP   DW  L
+Sbjct: 154 GDVAEKIGLPRSRDWEAL 171
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MALQ_ECOLI/6-119
+         (114 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965406|ref|YP_002298321.1| probable maltokinase [Rhodospir...    35   0.001
+gi|209966900|ref|YP_002299815.1| 4-hydroxy-3-methylbut-2-enyl di...    27   0.48 
+gi|209966862|ref|YP_002299777.1| rickettsia 17 kDa surface antig...    24   2.6  
+gi|209966428|ref|YP_002299343.1| threonine dehydratase [Rhodospi...    23   3.2  
+gi|209965043|ref|YP_002297958.1| 4-alpha-glucanotransferase [Rho...    23   3.2  
+gi|209966386|ref|YP_002299301.1| general L-amino acid transport ...    23   3.3  
+gi|209964373|ref|YP_002297288.1| hypothetical protein RC1_1052 [...    23   3.6  
+gi|209967103|ref|YP_002300018.1| aerotaxis sensor receptor Aer [...    23   4.2  
+gi|209965272|ref|YP_002298187.1| periplasmic serine protease, Do...    23   5.6  
+
+>gi|209965406|ref|YP_002298321.1| probable maltokinase [Rhodospirillum
+            centenum SW]
+          Length = 1865
+
+ Score = 35.4 bits (80), Expect = 0.001,   Method: Composition-based stats.
+ Identities = 30/95 (31%), Positives = 40/95 (42%), Gaps = 17/95 (17%)
+
+Query: 9    GISPNYINAHGKPQSISAETKRRLLDAMHQRTATKVAVT-------------PVPNVMVY 55
+            GI P + NAHG+    S  T+RRLL AM    A + A               P+P V V 
+Sbjct: 1165 GIEPGFDNAHGERVETSPATRRRLLAAMGIDAADEAAAERALDALDREDWQGPLPPVAVC 1224
+
+Query: 56   TSGKKMPMVV----EGSGEYSWLLTTEEGTQYKGH 86
+                  P V      G+G  +W +  EEG +  G+
+Sbjct: 1225 RRDAGPPSVALTLPAGTGTVAWRVALEEGGERGGN 1259
+
+
+>gi|209966900|ref|YP_002299815.1| 4-hydroxy-3-methylbut-2-enyl
+          diphosphate reductase [Rhodospirillum centenum SW]
+          Length = 322
+
+ Score = 26.6 bits (57), Expect = 0.48,   Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 14/20 (70%)
+
+Query: 12 PNYINAHGKPQSISAETKRR 31
+          P   +AHG P++I AE +RR
+Sbjct: 80 PVVFSAHGVPKAIPAEAQRR 99
+
+
+>gi|209966862|ref|YP_002299777.1| rickettsia 17 kDa surface antigen,
+           putative [Rhodospirillum centenum SW]
+          Length = 272
+
+ Score = 23.9 bits (50), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 11/30 (36%), Positives = 15/30 (50%)
+
+Query: 37  HQRTATKVAVTPVPNVMVYTSGKKMPMVVE 66
+           H+R   +V V P P   VY     +P+ VE
+Sbjct: 109 HRRRDGRVVVHPYPVAPVYGRFYALPVGVE 138
+
+
+>gi|209966428|ref|YP_002299343.1| threonine dehydratase
+           [Rhodospirillum centenum SW]
+          Length = 427
+
+ Score = 23.5 bits (49), Expect = 3.2,   Method: Composition-based stats.
+ Identities = 11/35 (31%), Positives = 17/35 (48%)
+
+Query: 12  PNYINAHGKPQSISAETKRRLLDAMHQRTATKVAV 46
+           P+     G+  S+  E    +++AMHQR  T   V
+Sbjct: 355 PDRPGGLGRITSVVGEAGGNIIEAMHQRLFTTATV 389
+
+
+>gi|209965043|ref|YP_002297958.1| 4-alpha-glucanotransferase
+           [Rhodospirillum centenum SW]
+          Length = 512
+
+ Score = 23.5 bits (49), Expect = 3.2,   Method: Composition-based stats.
+ Identities = 9/36 (25%), Positives = 20/36 (55%)
+
+Query: 40  TATKVAVTPVPNVMVYTSGKKMPMVVEGSGEYSWLL 75
+           T  ++A+ PV +V+   +  +M +  +  G ++W L
+Sbjct: 443 TNARIAMAPVQDVLGLGTEARMNLPGQADGNWTWRL 478
+
+
+>gi|209966386|ref|YP_002299301.1| general L-amino acid transport
+           system permease protein AapQ [Rhodospirillum centenum
+           SW]
+          Length = 396
+
+ Score = 23.5 bits (49), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 14/25 (56%)
+
+Query: 45  AVTPVPNVMVYTSGKKMPMVVEGSG 69
+           A+ PVP V +   G K+P   EG G
+Sbjct: 163 ALEPVPGVFLSNRGLKLPAPGEGGG 187
+
+
+>gi|209964373|ref|YP_002297288.1| hypothetical protein RC1_1052
+           [Rhodospirillum centenum SW]
+          Length = 115
+
+ Score = 23.5 bits (49), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 12/18 (66%), Positives = 13/18 (72%), Gaps = 2/18 (11%)
+
+Query: 24  ISAETKR--RLLDAMHQR 39
+           + AE KR  RLLDA HQR
+Sbjct: 97  LEAEVKRLKRLLDARHQR 114
+
+
+>gi|209967103|ref|YP_002300018.1| aerotaxis sensor receptor Aer
+           [Rhodospirillum centenum SW]
+          Length = 809
+
+ Score = 23.1 bits (48), Expect = 4.2,   Method: Composition-based stats.
+ Identities = 13/39 (33%), Positives = 17/39 (43%)
+
+Query: 8   AGISPNYINAHGKPQSISAETKRRLLDAMHQRTATKVAV 46
+           AG    YI+   +P     E   RL  A+   TA  +AV
+Sbjct: 105 AGEVKGYISIRTRPARADVEAAERLYAAIRAGTAKDIAV 143
+
+
+>gi|209965272|ref|YP_002298187.1| periplasmic serine protease, Do
+           [Rhodospirillum centenum SW]
+          Length = 516
+
+ Score = 22.7 bits (47), Expect = 5.6,   Method: Composition-based stats.
+ Identities = 10/26 (38%), Positives = 16/26 (61%)
+
+Query: 64  VVEGSGEYSWLLTTEEGTQYKGHVTG 89
+           V++G+ E   +L  +EGT+ K  V G
+Sbjct: 141 VIDGADEIRVILHDQEGTELKAEVIG 166
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= YGIF_ECOLI/282-432
+         (151 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966102|ref|YP_002299017.1| acetyl-CoA carboxylase, carboxy...    28   0.17 
+gi|209965441|ref|YP_002298356.1| periplasmic serine protease, Do...    24   3.4  
+gi|209964276|ref|YP_002297191.1| 3-deoxy-7-phosphoheptulonate sy...    24   3.4  
+gi|209963988|ref|YP_002296903.1| glycosyl transferase, family 2,...    24   4.7  
+
+>gi|209966102|ref|YP_002299017.1| acetyl-CoA carboxylase, carboxyl
+           transferase, beta subunit [Rhodospirillum centenum SW]
+          Length = 379
+
+ Score = 28.5 bits (62), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 15/66 (22%), Positives = 30/66 (45%), Gaps = 3/66 (4%)
+
+Query: 27  MAKLALTEWLVSKAWQPFLDA---KAQGKISDSFKRFADIHLSRHAAELKSVFCQPLGDR 83
+           M +  +   +V +A  P+L        G ++ SF    D+HL+   A++     + + + 
+Sbjct: 179 MPRSVIAVEMVKEAGLPYLVVLTDPTTGGVTASFAMLGDVHLAEPGAQIGFAGARVIENT 238
+
+Query: 84  YRDQLP 89
+            R+ LP
+Sbjct: 239 IRETLP 244
+
+
+>gi|209965441|ref|YP_002298356.1| periplasmic serine protease, Do
+           [Rhodospirillum centenum SW]
+          Length = 498
+
+ Score = 24.3 bits (51), Expect = 3.4,   Method: Composition-based stats.
+ Identities = 16/50 (32%), Positives = 24/50 (48%), Gaps = 2/50 (4%)
+
+Query: 64  HLSRHAAELKSVFCQPLGDRYRDQLPRLTRDIDSILLLAGYYDPVVAQAW 113
+           H+  +A E++  F  P GD Y+ +L       D  LL     +P+ A AW
+Sbjct: 129 HVVENADEIEVAF--PSGDTYQAKLIGTDPATDIALLKVETPEPLPALAW 176
+
+
+>gi|209964276|ref|YP_002297191.1| 3-deoxy-7-phosphoheptulonate
+           synthase [Rhodospirillum centenum SW]
+          Length = 486
+
+ Score = 24.3 bits (51), Expect = 3.4,   Method: Composition-based stats.
+ Identities = 21/54 (38%), Positives = 24/54 (44%), Gaps = 8/54 (14%)
+
+Query: 38  SKAWQPFLDAKAQGKISDSFKRFADIHLSRHAAELKSVFCQPLGDRYRDQLPRL 91
+           S A    L A AQG        +AD+H   H   L  V   P G+RYRD   RL
+Sbjct: 186 SAATLNLLRAFAQGG-------YADLH-KVHQWTLGFVEKSPQGERYRDLAGRL 231
+
+
+>gi|209963988|ref|YP_002296903.1| glycosyl transferase, family 2,
+           putative [Rhodospirillum centenum SW]
+          Length = 291
+
+ Score = 23.9 bits (50), Expect = 4.7,   Method: Compositional matrix adjust.
+ Identities = 25/96 (26%), Positives = 39/96 (40%), Gaps = 3/96 (3%)
+
+Query: 32  LTEWLVSKAWQPFLDAKAQGKIS--DSFKRFADIHLSRHAAELKSVFCQPLGDRYRDQLP 89
+           L E  V +   P L A A+   +  +   R++D      A   ++      G R R +L 
+Sbjct: 166 LVEGAVGRLRAPLLHADAKPPFAWVERHNRYSDWEAWLDAGPGRAAILSTEG-RGRQRLK 224
+
+Query: 90  RLTRDIDSILLLAGYYDPVVAQAWLENWQGLHHAIA 125
+           RL   +    L    Y+  V   +L+   GLHHA+ 
+Sbjct: 225 RLFAALPGRPLAVFLYEYGVRLGFLDGRAGLHHALG 260
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= YIDR_ECOLI/181-237
+         (57 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964323|ref|YP_002297238.1| sensor histidine kinase, putati...    25   0.66 
+gi|209966404|ref|YP_002299319.1| metallo-beta-lactamase superfam...    23   3.7  
+gi|209965405|ref|YP_002298320.1| transcriptional regulator CrtJ ...    23   4.3  
+gi|209964474|ref|YP_002297389.1| valyl-tRNA synthetase ValS [Rho...    22   5.5  
+gi|209966688|ref|YP_002299603.1| oxidoreductase, zinc-binding de...    22   5.7  
+gi|209964479|ref|YP_002297394.1| D-alanyl-D-alanine carboxypepti...    22   6.6  
+
+>gi|209964323|ref|YP_002297238.1| sensor histidine kinase, putative
+           [Rhodospirillum centenum SW]
+          Length = 437
+
+ Score = 25.4 bits (54), Expect = 0.66,   Method: Composition-based stats.
+ Identities = 12/38 (31%), Positives = 21/38 (55%), Gaps = 1/38 (2%)
+
+Query: 11  TTPTPQPGSDEINRAYEEG-WVGNHALAFIGDTLSPKG 47
+           TTP P+P + +++R  ++G W+  +A     D L   G
+Sbjct: 116 TTPPPEPKTIQVSRQMKDGTWMKFYAPVTATDALREPG 153
+
+
+>gi|209966404|ref|YP_002299319.1| metallo-beta-lactamase
+          superfamily [Rhodospirillum centenum SW]
+          Length = 495
+
+ Score = 23.1 bits (48), Expect = 3.7,   Method: Composition-based stats.
+ Identities = 8/13 (61%), Positives = 10/13 (76%)
+
+Query: 10 KTTPTPQPGSDEI 22
+          +T P P PG+DEI
+Sbjct: 34 RTIPGPVPGADEI 46
+
+
+>gi|209965405|ref|YP_002298320.1| transcriptional regulator CrtJ
+          [Rhodospirillum centenum SW]
+          Length = 468
+
+ Score = 22.7 bits (47), Expect = 4.3,   Method: Composition-based stats.
+ Identities = 6/17 (35%), Positives = 12/17 (70%)
+
+Query: 18 GSDEINRAYEEGWVGNH 34
+          G+D + R +++GW+G  
+Sbjct: 45 GNDALAREWDDGWLGRQ 61
+
+
+>gi|209964474|ref|YP_002297389.1| valyl-tRNA synthetase ValS
+           [Rhodospirillum centenum SW]
+          Length = 898
+
+ Score = 22.3 bits (46), Expect = 5.5,   Method: Composition-based stats.
+ Identities = 10/26 (38%), Positives = 12/26 (46%)
+
+Query: 6   VLVSKTTPTPQPGSDEINRAYEEGWV 31
+           +L+S   P PQPG        E  WV
+Sbjct: 725 LLISAAWPEPQPGLVHAEAGAEMEWV 750
+
+
+>gi|209966688|ref|YP_002299603.1| oxidoreductase, zinc-binding
+          dehydrogenase family [Rhodospirillum centenum SW]
+          Length = 342
+
+ Score = 22.3 bits (46), Expect = 5.7,   Method: Composition-based stats.
+ Identities = 7/16 (43%), Positives = 11/16 (68%)
+
+Query: 7  LVSKTTPTPQPGSDEI 22
+          LV +  P P+PG D++
+Sbjct: 24 LVWREAPVPEPGPDQV 39
+
+
+>gi|209964479|ref|YP_002297394.1| D-alanyl-D-alanine
+           carboxypeptidase [Rhodospirillum centenum SW]
+          Length = 403
+
+ Score = 22.3 bits (46), Expect = 6.6,   Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 12/25 (48%)
+
+Query: 6   VLVSKTTPTPQPGSDEINRAYEEGW 30
+           VLV    P  Q  +DE  R  E GW
+Sbjct: 267 VLVVNGLPNMQARADESARLLEWGW 291
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= YFEK_ECOLI/1-123
+         (123 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209967310|ref|YP_002300225.1| glycosyl transferase, group 2 f...    25   1.3  
+gi|209964581|ref|YP_002297496.1| nitrogen fixation protein fixG ...    23   4.5  
+gi|209967151|ref|YP_002300066.1| nitrous oxide reductase NosZ [R...    23   5.6  
+gi|209964753|ref|YP_002297668.1| phosphodiesterase, putative [Rh...    22   9.9  
+
+>gi|209967310|ref|YP_002300225.1| glycosyl transferase, group 2
+           family protein [Rhodospirillum centenum SW]
+          Length = 709
+
+ Score = 25.0 bits (53), Expect = 1.3,   Method: Composition-based stats.
+ Identities = 14/59 (23%), Positives = 27/59 (45%), Gaps = 4/59 (6%)
+
+Query: 61  RLKLGNTRNRIDTAEQFIDKVASSSSITGKPYIVKIPGKSDENAQPFLHALIAQTDKTV 119
+           R ++G+ R   D    F D++A  +++ G+P    +P   +   +    AL  Q D  +
+Sbjct: 445 RRRIGSARLVYDAEAIFTDRLAGEAALAGRP----LPAAREAALRAREMALARQADTVI 499
+
+
+>gi|209964581|ref|YP_002297496.1| nitrogen fixation protein fixG
+           [Rhodospirillum centenum SW]
+          Length = 496
+
+ Score = 23.5 bits (49), Expect = 4.5,   Method: Composition-based stats.
+ Identities = 21/59 (35%), Positives = 26/59 (44%), Gaps = 9/59 (15%)
+
+Query: 62  LKLGNTRNRIDTAEQFIDKVASSSSITGKPYIVKIPGKSDENAQPFLHALIAQTDKTVP 120
+           LK+ N R R D     +D   S   I G   +V+  G+SD      LH   AQ D  VP
+Sbjct: 400 LKILNKR-RAD-----VDYELSVVGIDGARLVVQDVGESDRGGPVVLH---AQPDTVVP 449
+
+
+>gi|209967151|ref|YP_002300066.1| nitrous oxide reductase NosZ
+           [Rhodospirillum centenum SW]
+          Length = 642
+
+ Score = 23.1 bits (48), Expect = 5.6,   Method: Composition-based stats.
+ Identities = 10/30 (33%), Positives = 17/30 (56%)
+
+Query: 25  EEARINAMLEGLAQKKDLIFVRNGDEHTCY 54
+           E+AR  A  +G+  + D   +R+GD+   Y
+Sbjct: 520 EDARRQAAADGVTLETDAKVIRDGDKVRVY 549
+
+
+>gi|209964753|ref|YP_002297668.1| phosphodiesterase, putative
+           [Rhodospirillum centenum SW]
+          Length = 265
+
+ Score = 22.3 bits (46), Expect = 9.9,   Method: Compositional matrix adjust.
+ Identities = 12/56 (21%), Positives = 25/56 (44%)
+
+Query: 59  HLRLKLGNTRNRIDTAEQFIDKVASSSSITGKPYIVKIPGKSDENAQPFLHALIAQ 114
+           H+  +       +DT +     VA  +++  +P +V + G      QP  +A+ A+
+Sbjct: 10  HVTARGARAFGEVDTNDALARAVAHVAALPRRPDLVVVTGDVVNGPQPGEYAMAAE 65
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= NFRA_ECOLI/734-989
+         (256 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966688|ref|YP_002299603.1| oxidoreductase, zinc-binding de...    27   1.1  
+
+>gi|209966688|ref|YP_002299603.1| oxidoreductase, zinc-binding
+           dehydrogenase family [Rhodospirillum centenum SW]
+          Length = 342
+
+ Score = 27.3 bits (59), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 17/35 (48%)
+
+Query: 150 YLDAAQYIRQDIQAWTADYRVSWHQKVANGQTIEP 184
+           Y+D A  + +++  W AD R+ W   V  G    P
+Sbjct: 283 YMDRAAEMLREVGPWLADGRLKWKVDVDQGLETAP 317
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= C4ZQP6_ECOLI/556-764
+         (209 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964558|ref|YP_002297473.1| pyruvate dehydrogenase, putativ...    24   5.6  
+gi|209966097|ref|YP_002299012.1| hypothetical protein RC1_2828 [...    24   8.0  
+
+>gi|209964558|ref|YP_002297473.1| pyruvate dehydrogenase, putative
+           [Rhodospirillum centenum SW]
+          Length = 784
+
+ Score = 24.3 bits (51), Expect = 5.6,   Method: Composition-based stats.
+ Identities = 9/22 (40%), Positives = 13/22 (59%)
+
+Query: 161 LMQNWNEDLHTAGFIIDANPQS 182
+           +++ W  DL    +IID N QS
+Sbjct: 178 MLEGWKHDLRNTWWIIDYNRQS 199
+
+
+>gi|209966097|ref|YP_002299012.1| hypothetical protein RC1_2828
+           [Rhodospirillum centenum SW]
+          Length = 232
+
+ Score = 23.9 bits (50), Expect = 8.0,   Method: Compositional matrix adjust.
+ Identities = 18/52 (34%), Positives = 24/52 (46%)
+
+Query: 153 GSGLTAKLLMQNWNEDLHTAGFIIDANPQSAKIATLSASNNGVLANENAANT 204
+           G+ L   L+  N  ED    G  I A+P +A +A   AS N  L     +NT
+Sbjct: 140 GAKLLTLLIYLNPPEDAQDWGTDIYADPAAAPVARTDASFNRALIFVPGSNT 191
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= YBIO_ECOLI/176-444
+         (269 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966432|ref|YP_002299347.1| Mechanosensitive ion channel pr...    43   3e-05
+
+>gi|209966432|ref|YP_002299347.1| Mechanosensitive ion channel
+           protein, putative [Rhodospirillum centenum SW]
+          Length = 786
+
+ Score = 42.7 bits (99), Expect = 3e-05,   Method: Compositional matrix adjust.
+ Identities = 29/98 (29%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query: 171 VWHWLASAYFIVLFFFSLFDPGNSLKFMMGATVRSLAIIGIAAFVSGMFSRWLAKTITLS 230
+           VWH LAS Y IV+F     +     +F++ AT+ S A + +A  ++    + +    TL+
+Sbjct: 385 VWHILASVYIIVIFGIWALEIQGGFEFVLRATLISGAALILATLLTRGLDQLVHHAFTLA 444
+
+Query: 231 PHTQRNYPELQKRLNGWLS---AALKTARILTVCVAVM 265
+           P  +  YP L+ R + +L      L+T  ++T  +AV+
+Sbjct: 445 PQMKAQYPLLEARAHRYLPILHRLLRTGILVTATLAVL 482
+
+
+
+ Score = 26.2 bits (56), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 18/38 (47%)
+
+Query: 51  FLNAFALIEFFKAVLRLIFCPNVAELRPFTIQDESARY 88
+           FLNA   ++      RL+  P    LR   + DE+A Y
+Sbjct: 226 FLNASIFVQTVMLTTRLLLSPLTPNLRLLKVTDETALY 263
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= YIHQ_ECOLI/11-105
+         (95 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965500|ref|YP_002298415.1| periplasmic oligopeptide-bindin...    33   0.003
+gi|209966823|ref|YP_002299738.1| dihydroorotase, homodimeric typ...    27   0.30 
+gi|209967250|ref|YP_002300165.1| methyltransferase, FkbM family,...    23   4.8  
+gi|209964346|ref|YP_002297261.1| arginyl-tRNA synthetase ArgS [R...    22   6.2  
+gi|209966951|ref|YP_002299866.1| TonB-dependent receptor, putati...    22   7.3  
+gi|209965776|ref|YP_002298691.1| hypothetical protein RC1_2496 [...    22   7.9  
+
+>gi|209965500|ref|YP_002298415.1| periplasmic oligopeptide-binding
+          protein [Rhodospirillum centenum SW]
+          Length = 535
+
+ Score = 33.1 bits (74), Expect = 0.003,   Method: Composition-based stats.
+ Identities = 23/62 (37%), Positives = 30/62 (48%), Gaps = 5/62 (8%)
+
+Query: 17 RLILTHSKDNPCLWIGSGIADIDMFRGNFSIKDKLQEKIALTDAIVSQSPDGWLIHFSRG 76
+          R I  H  D     +  G  DIDMF G  S+  K Q ++AL  A +  SPDG +  F+  
+Sbjct: 40 RTIDPHRSD----LVQEGWIDIDMFEGLLSLDAKGQTRLALA-AAMDISPDGTVYTFTLR 94
+
+Query: 77 SD 78
+           D
+Sbjct: 95 ED 96
+
+
+>gi|209966823|ref|YP_002299738.1| dihydroorotase, homodimeric type
+          [Rhodospirillum centenum SW]
+          Length = 352
+
+ Score = 26.6 bits (57), Expect = 0.30,   Method: Composition-based stats.
+ Identities = 10/32 (31%), Positives = 17/32 (53%)
+
+Query: 64 QSPDGWLIHFSRGSDISATLNISADDQGRLLL 95
+          + PD W +H   G+ + A L  +A   GR ++
+Sbjct: 11 RRPDDWHLHLRSGAMLRAVLPFTARQMGRAIV 42
+
+
+>gi|209967250|ref|YP_002300165.1| methyltransferase, FkbM family,
+           putative [Rhodospirillum centenum SW]
+          Length = 264
+
+ Score = 22.7 bits (47), Expect = 4.8,   Method: Compositional matrix adjust.
+ Identities = 8/19 (42%), Positives = 13/19 (68%)
+
+Query: 74  SRGSDISATLNISADDQGR 92
+           +RG D++   N+S D +GR
+Sbjct: 215 ARGFDLAGVYNLSTDREGR 233
+
+
+>gi|209964346|ref|YP_002297261.1| arginyl-tRNA synthetase ArgS
+           [Rhodospirillum centenum SW]
+          Length = 584
+
+ Score = 22.3 bits (46), Expect = 6.2,   Method: Composition-based stats.
+ Identities = 10/27 (37%), Positives = 14/27 (51%), Gaps = 1/27 (3%)
+
+Query: 5   QNNDSFTLHFQQRLILTHSKDNPCLWI 31
+           + ND  TL F    +   SKDNP  ++
+Sbjct: 427 RRNDQ-TLEFDYAKVTEQSKDNPVFYV 452
+
+
+>gi|209966951|ref|YP_002299866.1| TonB-dependent receptor, putative
+           [Rhodospirillum centenum SW]
+          Length = 695
+
+ Score = 21.9 bits (45), Expect = 7.3,   Method: Composition-based stats.
+ Identities = 11/28 (39%), Positives = 12/28 (42%)
+
+Query: 5   QNNDSFTLHFQQRLILTHSKDNPCLWIG 32
+           Q  D     + Q L LT   D P  WIG
+Sbjct: 330 QGQDLEVEMWSQELRLTSPDDQPLRWIG 357
+
+
+>gi|209965776|ref|YP_002298691.1| hypothetical protein RC1_2496
+           [Rhodospirillum centenum SW]
+          Length = 581
+
+ Score = 21.9 bits (45), Expect = 7.9,   Method: Composition-based stats.
+ Identities = 9/26 (34%), Positives = 13/26 (50%)
+
+Query: 68  GWLIHFSRGSDISATLNISADDQGRL 93
+           GW +   +GSD +  L    D  GR+
+Sbjct: 489 GWALEHRQGSDAAPRLIAFTDGAGRI 514
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= YMFI_ECOLI/1-112
+         (112 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966998|ref|YP_002299913.1| flagellar hook protein FlgE [Rh...    23   3.6  
+
+>gi|209966998|ref|YP_002299913.1| flagellar hook protein FlgE
+           [Rhodospirillum centenum SW]
+          Length = 655
+
+ Score = 23.5 bits (49), Expect = 3.6,   Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 19/35 (54%), Gaps = 1/35 (2%)
+
+Query: 46  PEGYILKSTMNCQQILDQTFSIAN-SAGVDANIFV 79
+           PE  I+ ST   QQ+   +FS A  + G D +I +
+Sbjct: 241 PEVQIIPSTTPVQQVSTASFSAATPTTGTDYSITI 275
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= YEHI_ECOLI/551-789
+         (239 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209963388|ref|YP_002296303.1| hypothetical protein RC1_0040 [...    25   3.4  
+gi|209964031|ref|YP_002296946.1| DNA-directed RNA polymerase, be...    25   3.8  
+gi|209964611|ref|YP_002297526.1| poly-beta-hydroxybutyrate polym...    25   5.7  
+
+>gi|209963388|ref|YP_002296303.1| hypothetical protein RC1_0040
+           [Rhodospirillum centenum SW]
+          Length = 209
+
+ Score = 25.4 bits (54), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 18/35 (51%)
+
+Query: 100 VAHVWRRFAAQRDLARQWILQWPEHTASALIPLVF 134
+           VAHV   F    D AR  +L+  + TAS   P +F
+Sbjct: 174 VAHVMETFQVSEDAARVRLLKLGQLTASDRQPSLF 208
+
+
+>gi|209964031|ref|YP_002296946.1| DNA-directed RNA polymerase, beta'
+           subunit, putative [Rhodospirillum centenum SW]
+          Length = 1430
+
+ Score = 25.4 bits (54), Expect = 3.8,   Method: Composition-based stats.
+ Identities = 9/13 (69%), Positives = 10/13 (76%)
+
+Query: 92  GATELALPVAHVW 104
+           G  ELA PVAH+W
+Sbjct: 103 GHIELASPVAHIW 115
+
+
+>gi|209964611|ref|YP_002297526.1| poly-beta-hydroxybutyrate
+           polymerase [Rhodospirillum centenum SW]
+          Length = 597
+
+ Score = 24.6 bits (52), Expect = 5.7,   Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 12/19 (63%)
+
+Query: 3   SGHIEALINIWENDNYSHY 21
+           SGHI  ++N    + YSHY
+Sbjct: 513 SGHIAGVVNPPSAEKYSHY 531
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q53G09_HUMAN/1-189
+         (189 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966283|ref|YP_002299198.1| hypothetical protein RC1_3018 [...    25   3.2  
+gi|209966645|ref|YP_002299560.1| Serralysin precursor, putative ...    25   3.5  
+
+>gi|209966283|ref|YP_002299198.1| hypothetical protein RC1_3018
+           [Rhodospirillum centenum SW]
+          Length = 202
+
+ Score = 25.0 bits (53), Expect = 3.2,   Method: Compositional matrix adjust.
+ Identities = 14/44 (31%), Positives = 20/44 (45%), Gaps = 1/44 (2%)
+
+Query: 20  NLKPSDLQ-LSLWGGDVVLSKLELKLDVLEQELKLPFTFLSGHI 62
+            + P+ L+ L +W GD  LS     +D L  E K     LS  +
+Sbjct: 60  GVGPARLETLEIWHGDTPLSDARALIDALAAEAKPAIPSLSARL 103
+
+
+>gi|209966645|ref|YP_002299560.1| Serralysin precursor, putative
+           [Rhodospirillum centenum SW]
+          Length = 650
+
+ Score = 25.0 bits (53), Expect = 3.5,   Method: Composition-based stats.
+ Identities = 8/25 (32%), Positives = 16/25 (64%)
+
+Query: 71  WTKLGSEPVVITINTMECILKLKDG 95
+           W   G++ V  +  T++C++ L+DG
+Sbjct: 341 WDGGGTDTVDASAQTLDCVIDLRDG 365
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= B4DIR9_HUMAN/290-613
+         (324 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965297|ref|YP_002298212.1| DNA-directed RNA polymerase, si...    29   0.51 
+gi|209963842|ref|YP_002296757.1| SMC family protein [Rhodospiril...    27   1.2  
+gi|209963424|ref|YP_002296339.1| hypothetical protein RC1_0077 [...    27   1.2  
+gi|209965797|ref|YP_002298712.1| hypothetical protein RC1_2518 [...    27   1.9  
+gi|209965842|ref|YP_002298757.1| efflux transporter, RND family,...    26   4.0  
+gi|209964929|ref|YP_002297844.1| Sua5 [Rhodospirillum centenum SW]     25   8.1  
+
+>gi|209965297|ref|YP_002298212.1| DNA-directed RNA polymerase, sigma
+           subunit RpoD [Rhodospirillum centenum SW]
+          Length = 648
+
+ Score = 28.9 bits (63), Expect = 0.51,   Method: Compositional matrix adjust.
+ Identities = 31/102 (30%), Positives = 50/102 (49%), Gaps = 21/102 (20%)
+
+Query: 219 QKARMERLQRELEIQK---KKLDKLKSEVNEMENNLTRRRLKRSNSISQIPSLEEMQQLR 275
+           Q+ R+  LQR  E+ K   KK DKLK+E+ ++ N++   RL  +  I Q+     ++QL 
+Sbjct: 260 QEQRLAVLQRGEELPKGSDKKYDKLKAELTDLVNSV---RLNNAR-IEQL-----VEQLY 310
+
+Query: 276 SCNRQ--------LQIDIDCLTKEID-LFQARGPHFNPSAIH 308
+             NR+        L++  DC  K  D L    G   +P+ + 
+Sbjct: 311 GLNRKLLGYEGKLLRLATDCKIKREDFLHHYYGSELDPNWLE 352
+
+
+>gi|209963842|ref|YP_002296757.1| SMC family protein [Rhodospirillum
+            centenum SW]
+          Length = 1175
+
+ Score = 27.3 bits (59), Expect = 1.2,   Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 36/79 (45%), Gaps = 2/79 (2%)
+
+Query: 202  LSMGSDDAAYTQALLVHQKARMERLQRELEIQKKKLDKLKSEVNEMENNLTRRRLKRSNS 261
+            L +   D A  Q      +AR+ERL  E E       + + EV E+E  +   + +R + 
+Sbjct: 937  LDVAGIDPAQEQPEAAAVEARLERLIAERETMGPVNLRAEQEVAELEGQIDVMKGEREDL 996
+
+Query: 262  ISQIPSLEEMQQLRSCNRQ 280
+            I+ I  L   Q + S NR+
+Sbjct: 997  IAAIARLR--QGISSLNRE 1013
+
+
+>gi|209963424|ref|YP_002296339.1| hypothetical protein RC1_0077
+           [Rhodospirillum centenum SW]
+          Length = 149
+
+ Score = 27.3 bits (59), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 15/35 (42%), Positives = 18/35 (51%), Gaps = 2/35 (5%)
+
+Query: 157 PGVVSPTFELTNLLNHPDHYVETENIQHLTDPTLA 191
+           PGV  P   L+ LL+H DH  E E +    DP L 
+Sbjct: 47  PGV--PEVTLSPLLHHYDHVAEIEVLVQAADPPLG 79
+
+
+>gi|209965797|ref|YP_002298712.1| hypothetical protein RC1_2518
+           [Rhodospirillum centenum SW]
+          Length = 80
+
+ Score = 26.9 bits (58), Expect = 1.9,   Method: Composition-based stats.
+ Identities = 13/49 (26%), Positives = 29/49 (59%), Gaps = 2/49 (4%)
+
+Query: 219 QKARMERLQRELEIQKK--KLDKLKSEVNEMENNLTRRRLKRSNSISQI 265
+           QK  ++  QRE+E++++    D+L+  V +ME ++T +  +    I ++
+Sbjct: 28  QKLEIKAAQREVELRRRFRVFDELERRVADMERHVTSKEYQLDREIGRL 76
+
+
+>gi|209965842|ref|YP_002298757.1| efflux transporter, RND family,
+           MFP subunit, putative [Rhodospirillum centenum SW]
+          Length = 363
+
+ Score = 25.8 bits (55), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 20/38 (52%)
+
+Query: 222 RMERLQRELEIQKKKLDKLKSEVNEMENNLTRRRLKRS 259
+           R E L R   + K +LD  ++ V+  EN L  R  +R+
+Sbjct: 145 RAEDLFRRGTVPKARLDDARTAVSVAENGLKARTAERA 182
+
+
+>gi|209964929|ref|YP_002297844.1| Sua5 [Rhodospirillum centenum SW]
+          Length = 326
+
+ Score = 24.6 bits (52), Expect = 8.1,   Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 13/16 (81%), Gaps = 1/16 (6%)
+
+Query: 294 LFQARG-PHFNPSAIH 308
+           +F+A+G PHFNP  +H
+Sbjct: 53  IFEAKGRPHFNPLIVH 68
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= DYH9_HUMAN/2287-3037
+         (751 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965661|ref|YP_002298576.1| ABC transporter, ATP-binding pr...    28   1.4  
+gi|209965792|ref|YP_002298707.1| Psp operon transcriptional acti...    28   1.6  
+gi|209964229|ref|YP_002297144.1| ATPase, AAA family [Rhodospiril...    28   1.7  
+gi|209964982|ref|YP_002297897.1| ABC transporter, ATP-binding pr...    28   2.2  
+gi|209963403|ref|YP_002296318.1| hypothetical protein RC1_0055 [...    28   2.6  
+gi|209966937|ref|YP_002299852.1| Nif-specific regulatory protein...    28   2.7  
+gi|209964881|ref|YP_002297796.1| ABC transporter, ATP-binding pr...    27   3.4  
+gi|209964856|ref|YP_002297771.1| ABC transporter, ATP-binding pr...    27   5.4  
+
+>gi|209965661|ref|YP_002298576.1| ABC transporter, ATP-binding
+           protein, putative [Rhodospirillum centenum SW]
+          Length = 540
+
+ Score = 28.5 bits (62), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 22/85 (25%), Positives = 38/85 (44%), Gaps = 5/85 (5%)
+
+Query: 511 LVLFEDAMRHVCHINRILESP----RGNAL-LVGVGGSGKQSLTRLAAFISSMDVFQITL 565
+           ++ FE+  +   H    LE+     RG  + LVG  G+GK +L R+     + D  Q+ +
+Sbjct: 1   MIRFENITKQGGHRILFLEASAALNRGEKVGLVGPNGAGKTTLFRMITGEETPDEGQVAI 60
+
+Query: 566 RKGYQIQDFKMDLASLCLKAGVKNL 590
+            K   I  F  D+  +  +  V  +
+Sbjct: 61  EKQVSIGYFNQDVGEMSGRTAVAEV 85
+
+
+>gi|209965792|ref|YP_002298707.1| Psp operon transcriptional
+           activator [Rhodospirillum centenum SW]
+          Length = 374
+
+ Score = 28.5 bits (62), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 20/56 (35%), Positives = 29/56 (51%), Gaps = 5/56 (8%)
+
+Query: 183 ARQRPVMLVGTAGTGKSVLVGAKLASLDPEAYLVKNVPFNYYTTSAMLQAVLEKPL 238
+           A  RP +++G  GTGK  LV A+L  L P      + PF     +A+ + +LE  L
+Sbjct: 29  ALNRPTLVIGERGTGKE-LVAARLHYLSPR----WDRPFVKLNCAALSETLLETEL 79
+
+
+>gi|209964229|ref|YP_002297144.1| ATPase, AAA family [Rhodospirillum
+           centenum SW]
+          Length = 284
+
+ Score = 28.5 bits (62), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 17/25 (68%)
+
+Query: 185 QRPVMLVGTAGTGKSVLVGAKLASL 209
+           QRP+++ G  GTGK+VL     A+L
+Sbjct: 27  QRPLLVKGEPGTGKTVLAQEVAAAL 51
+
+
+>gi|209964982|ref|YP_002297897.1| ABC transporter, ATP-binding
+           protein, putative [Rhodospirillum centenum SW]
+          Length = 298
+
+ Score = 28.1 bits (61), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 24/77 (31%), Positives = 36/77 (46%), Gaps = 16/77 (20%)
+
+Query: 514 FEDAMRHVCHINRILESPRGNALLVGVGGSGKQSLTRLAAFISS----------MDVFQI 563
+           + + +R +  IN  LE PRG   L+G  G+GK +L R  A + +          MDV   
+Sbjct: 11  YPNGVRALDGIN--LEVPRGMFGLLGPNGAGKSTLMRTIATLQTPTAGSIRFDGMDVLAE 68
+
+Query: 564 TLR----KGYQIQDFKM 576
+            +R     GY  Q+F +
+Sbjct: 69  PMRLRQTLGYLPQEFGV 85
+
+
+>gi|209963403|ref|YP_002296318.1| hypothetical protein RC1_0055
+           [Rhodospirillum centenum SW]
+          Length = 1194
+
+ Score = 27.7 bits (60), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 28/113 (24%), Positives = 51/113 (45%), Gaps = 7/113 (6%)
+
+Query: 347 QHLKLGNFPASLQKSIPPLIDLALAFHQKIATTFLPTGIKFHYIFNLRDFANIFQGILFS 406
+           +HL+L      + K I  L  LA    +++A  F  +  K         FA  ++  L +
+Sbjct: 747 EHLRL-----LVLKRIARLPGLAHRGLREVAEAFATSIFKIDPSHGHALFAPYWREALVA 801
+
+Query: 407 SVECVKSTWDLIRLYLHESNRVYRDKMVEEKD-FDLFDKIQTEVLKKTFDDIE 458
+             E  ++     R +LH +  + R ++ ++K  FD+ D  + E+L +   DIE
+Sbjct: 802 LDEMPRAFRTTSRAFLHHAA-ISRRRIAKDKSAFDISDDERAELLSRAISDIE 853
+
+
+>gi|209966937|ref|YP_002299852.1| Nif-specific regulatory protein
+           [Rhodospirillum centenum SW]
+          Length = 557
+
+ Score = 27.7 bits (60), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 30/114 (26%), Positives = 49/114 (42%), Gaps = 11/114 (9%)
+
+Query: 165 LVHTSETIRVCYFMERL---MARQRPVMLVGTAGTGKSVLVGAKLASLDPEAYLVKNVPF 221
+           ++ ++  IR    M+RL    A   PV+L G +GTGK +   A +  L P A       F
+Sbjct: 209 IIGSAPAIRAV--MDRLPPIAASSAPVLLRGESGTGKEIFARA-IHELSPRA----KASF 261
+
+Query: 222 NYYTTSAMLQAVLEKPL-EKKAGRNYGPPGNKKLIYFIDDMNMPEVDAYGTVQP 274
+                +A+ + +LE  L   + G   G    +K  + + D     +D  G + P
+Sbjct: 262 IRVNCAALSETLLESELFGHEKGAFTGALERRKGRFELADGGTLFLDEIGEISP 315
+
+
+>gi|209964881|ref|YP_002297796.1| ABC transporter, ATP-binding
+           protein, putative [Rhodospirillum centenum SW]
+          Length = 268
+
+ Score = 27.3 bits (59), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 30/56 (53%), Gaps = 1/56 (1%)
+
+Query: 182 MARQRPVMLVGTAGTGKSVLVGAKLASLDP-EAYLVKNVPFNYYTTSAMLQAVLEK 236
+           +A    ++++G +GTGKSVL+   L  L P E  ++ +     + +    +AVL K
+Sbjct: 39  IAAGESIVIIGGSGTGKSVLLKCILGILQPDEGTILIDGEDTTHASGREREAVLRK 94
+
+
+>gi|209964856|ref|YP_002297771.1| ABC transporter, ATP-binding
+           protein, putative [Rhodospirillum centenum SW]
+          Length = 633
+
+ Score = 26.6 bits (57), Expect = 5.4,   Method: Compositional matrix adjust.
+ Identities = 27/86 (31%), Positives = 38/86 (44%), Gaps = 18/86 (20%)
+
+Query: 537 LVGVGGSGKQSLTRLAAFISSMDVFQITL----RKGYQIQDFKMDLASLCLKAGVKNLNT 592
+           LVG  G+GK +L +L A   + D  +ITL    R G+  Q+     ASL        L T
+Sbjct: 32  LVGRNGTGKSTLLKLIAGELAPDAGEITLPVGTRMGWVRQEAPAGAASL--------LET 83
+
+Query: 593 VFLMTDAQVADERFLVLINDLLASGE 618
+           V        ADE    L+ +   +G+
+Sbjct: 84  VL------AADEERTALLREAEQTGD 103
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= XPOT_HUMAN/673-961
+         (289 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965527|ref|YP_002298442.1| ATP synthase F1, gamma subunit ...    26   3.1  
+
+>gi|209965527|ref|YP_002298442.1| ATP synthase F1, gamma subunit
+           [Rhodospirillum centenum SW]
+          Length = 295
+
+ Score = 25.8 bits (55), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 13/41 (31%), Positives = 22/41 (53%)
+
+Query: 41  ICLEEEVLPFIPSASEHMLKDCEAKDLQEFIPLINQITAKF 81
+           +   ++V+PF P+ +    +  EAK L EF P   +I A+ 
+Sbjct: 187 VVTAQQVIPFAPAVATEPAETAEAKPLYEFEPNEEKILAEL 227
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= A8K3V9_HUMAN/34-571
+         (538 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965291|ref|YP_002298206.1| R body protein, putative [Rhodo...    26   5.6  
+
+>gi|209965291|ref|YP_002298206.1| R body protein, putative
+           [Rhodospirillum centenum SW]
+          Length = 189
+
+ Score = 26.2 bits (56), Expect = 5.6,   Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 23/44 (52%)
+
+Query: 202 NAVWNHCFIHREALVSKEISPSLMDVLKNAVKTVNFIKGSSLNS 245
+           NA +N+    + ALV+ E   S M    NAV ++    G+ +NS
+Sbjct: 42  NAAYNNNLAQKAALVTTEAYNSQMLANTNAVTSLTTALGNGINS 85
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= B7Z5F2_HUMAN/1-293
+         (293 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= PKP4_HUMAN/356-504
+         (149 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965714|ref|YP_002298629.1| ATP-dependent DNA helicase RecQ...    27   0.69 
+gi|209963569|ref|YP_002296484.1| DNA-binding protein, putative [...    26   1.0  
+
+>gi|209965714|ref|YP_002298629.1| ATP-dependent DNA helicase RecQ
+           [Rhodospirillum centenum SW]
+          Length = 610
+
+ Score = 26.6 bits (57), Expect = 0.69,   Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 24/36 (66%), Gaps = 3/36 (8%)
+
+Query: 64  TYYSPVYRSPNHGTVELQGSQTALYRTGVS-GIGNL 98
+           T ++PV  +   GTVE Q + +A+YRTG   G+G+L
+Sbjct: 404 TCFTPV--ATYDGTVEAQKALSAVYRTGQRFGVGHL 437
+
+
+>gi|209963569|ref|YP_002296484.1| DNA-binding protein, putative
+          [Rhodospirillum centenum SW]
+          Length = 203
+
+ Score = 26.2 bits (56), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 14/45 (31%), Positives = 23/45 (51%), Gaps = 3/45 (6%)
+
+Query: 22 PPRPDSLTGLRSSYASQHSQL---GQDLRSAVSPDLHITPIYEGR 63
+          P RPD +  L  ++    S L      LR+ ++P+    P+Y+GR
+Sbjct: 47 PLRPDHVAKLARAFEIAPSDLVGEASALRAMIAPEPATLPLYDGR 91
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q6ZQN2_HUMAN/868-1226
+         (359 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964942|ref|YP_002297857.1| HlyD family secretion protein [...    32   0.076
+gi|209963914|ref|YP_002296829.1| TonB-dependent receptor, putati...    29   0.40 
+
+>gi|209964942|ref|YP_002297857.1| HlyD family secretion protein
+           [Rhodospirillum centenum SW]
+          Length = 421
+
+ Score = 31.6 bits (70), Expect = 0.076,   Method: Compositional matrix adjust.
+ Identities = 22/89 (24%), Positives = 39/89 (43%), Gaps = 7/89 (7%)
+
+Query: 11  VPKVEGTLKGPEVDLKGPRLDFEGPDAKLSGPSLKMPSLEISAPKVTAPDVDLHLKAPKI 70
+           V + E  ++  EV+L+  R DF   +A   G +L     +I+  ++   DV L L   ++
+Sbjct: 112 VTEAEAQVRRAEVELEDARRDFRRREALRKGGNLSERDYDIARTRLDTADVGLDLARAQL 171
+
+Query: 71  GFSG-------PKLEGGEVDLKGPKVEAP 92
+             +          L   E+DL+   + AP
+Sbjct: 172 VNARAAVLQQEATLNQAEIDLERTCIRAP 200
+
+
+>gi|209963914|ref|YP_002296829.1| TonB-dependent receptor, putative
+           [Rhodospirillum centenum SW]
+          Length = 988
+
+ Score = 29.3 bits (64), Expect = 0.40,   Method: Compositional matrix adjust.
+ Identities = 18/63 (28%), Positives = 31/63 (49%), Gaps = 1/63 (1%)
+
+Query: 256 ELQAPDLELSLPAIHVEGLDIKAKAPKVKMPDVDISVPKIEGDLKGPKVQANLGAPDINI 315
+            ++AP+L  + P   V G DIKA+    ++ D+  S+P+      G     + G   +N+
+Sbjct: 50  RIRAPNLVSTSPVTAVTGEDIKAQGV-TRVEDLVNSLPQAFAAQGGQVSNGSTGTATVNL 108
+
+Query: 316 EGL 318
+            GL
+Sbjct: 109 RGL 111
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= B4DZE6_HUMAN/1-251
+         (251 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209967295|ref|YP_002300210.1| methyl-accepting chemotaxis pro...    28   0.38 
+gi|209967118|ref|YP_002300033.1| chemotaxis protein methyltransf...    25   6.0  
+gi|209965415|ref|YP_002298330.1| methyl-accepting chemotaxis pro...    24   9.6  
+
+>gi|209967295|ref|YP_002300210.1| methyl-accepting chemotaxis
+           protein, putative [Rhodospirillum centenum SW]
+          Length = 558
+
+ Score = 28.5 bits (62), Expect = 0.38,   Method: Compositional matrix adjust.
+ Identities = 21/82 (25%), Positives = 33/82 (40%)
+
+Query: 77  ALDSSSAIINQLNENTESLKQQKKQVEHQLEEEKKTNSEIHKAQMEQLEAIDILTLEKAD 136
+           A D + A I ++     S+ Q    +   +EE+  T SEI +   +  +    +T     
+Sbjct: 456 ATDGTVAAIGRIGATITSMNQIASSIASAIEEQNATTSEITRNVQQAAQGTQEVTENIVQ 515
+
+Query: 137 LKTTLYHTKRAARHFEEESKDL 158
+           +K     T  AA  F   S DL
+Sbjct: 516 VKEAAVQTGAAAGRFLTASHDL 537
+
+
+>gi|209967118|ref|YP_002300033.1| chemotaxis protein
+           methyltransferase, putative [Rhodospirillum centenum SW]
+          Length = 994
+
+ Score = 24.6 bits (52), Expect = 6.0,   Method: Composition-based stats.
+ Identities = 13/45 (28%), Positives = 21/45 (46%)
+
+Query: 93  ESLKQQKKQVEHQLEEEKKTNSEIHKAQMEQLEAIDILTLEKADL 137
+           E L    ++++   EE +  N E++    E  E I +L    ADL
+Sbjct: 705 EELLASNEELQSTNEELQSVNEELYTVNSEYQEKIQLLVKANADL 749
+
+
+>gi|209965415|ref|YP_002298330.1| methyl-accepting chemotaxis
+           protein [Rhodospirillum centenum SW]
+          Length = 539
+
+ Score = 23.9 bits (50), Expect = 9.6,   Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 19/35 (54%)
+
+Query: 148 ARHFEEESKDLAGRLQYSLQRIQELERALSAVSTQ 182
+           AR     +  +AG  Q+ LQ +QE   A+ A+ +Q
+Sbjct: 317 AREVGSNADAIAGTGQHGLQAVQEAAAAMEAIRSQ 351
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q8NF45_HUMAN/375-483
+         (109 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964196|ref|YP_002297111.1| DEAD/DEAH box helicase protein ...    29   0.054
+gi|209964314|ref|YP_002297229.1| exonuclease, putative [Rhodospi...    24   1.9  
+
+>gi|209964196|ref|YP_002297111.1| DEAD/DEAH box helicase protein
+           [Rhodospirillum centenum SW]
+          Length = 528
+
+ Score = 29.3 bits (64), Expect = 0.054,   Method: Compositional matrix adjust.
+ Identities = 15/31 (48%), Positives = 17/31 (54%)
+
+Query: 23  LGSRCEGPRPKGPRFEGNRPDGPRPRYEGHP 53
+            G R  G RP+G RF  +RP G RP  E  P
+Sbjct: 469 FGDRPHGDRPQGERFRNDRPRGDRPHGEHRP 499
+
+
+
+ Score = 25.0 bits (53), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 15/24 (62%)
+
+Query: 24  GSRCEGPRPKGPRFEGNRPDGPRP 47
+           G R  G RP G R +G+RP G RP
+Sbjct: 435 GERSFGDRPFGDRPQGDRPHGDRP 458
+
+
+
+ Score = 23.5 bits (49), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 15/27 (55%)
+
+Query: 24  GSRCEGPRPKGPRFEGNRPDGPRPRYE 50
+           G R    RP G R  G+RP G RP+ E
+Sbjct: 455 GDRPHADRPHGERSFGDRPHGDRPQGE 481
+
+
+
+ Score = 22.7 bits (47), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 15/28 (53%)
+
+Query: 23  LGSRCEGPRPKGPRFEGNRPDGPRPRYE 50
+            G R  G RP+G R  G+RP   RP  E
+Sbjct: 439 FGDRPFGDRPQGDRPHGDRPHADRPHGE 466
+
+
+>gi|209964314|ref|YP_002297229.1| exonuclease, putative
+           [Rhodospirillum centenum SW]
+          Length = 699
+
+ Score = 24.3 bits (51), Expect = 1.9,   Method: Composition-based stats.
+ Identities = 10/21 (47%), Positives = 11/21 (52%)
+
+Query: 30  PRPKGPRFEGNRPDGPRPRYE 50
+           P P+     G R DGP PR E
+Sbjct: 460 PLPRPQEAHGRRNDGPAPRPE 480
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= VP13A_MOUSE/1265-1513
+         (249 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966161|ref|YP_002299076.1| hypothetical protein RC1_2896 [...    26   1.9  
+
+>gi|209966161|ref|YP_002299076.1| hypothetical protein RC1_2896
+           [Rhodospirillum centenum SW]
+          Length = 69
+
+ Score = 26.2 bits (56), Expect = 1.9,   Method: Composition-based stats.
+ Identities = 11/30 (36%), Positives = 15/30 (50%)
+
+Query: 90  MTSGVTSPPDHSPXXXXXXXXXXXHPQASQ 119
+           M +G++SPPD SP            P+A Q
+Sbjct: 1   MLAGMSSPPDRSPTRPPVQAPDPAGPEAEQ 30
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= A0JLN9_MOUSE/197-547
+         (351 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966907|ref|YP_002299822.1| hypothetical protein RC1_3660 [...    27   1.5  
+gi|209964001|ref|YP_002296916.1| pentapeptide repeat family prot...    27   2.0  
+gi|209966631|ref|YP_002299546.1| hypothetical protein RC1_3374 [...    25   6.9  
+gi|209963755|ref|YP_002296670.1| propionyl-CoA carboxylase, beta...    25   7.5  
+
+>gi|209966907|ref|YP_002299822.1| hypothetical protein RC1_3660
+           [Rhodospirillum centenum SW]
+          Length = 476
+
+ Score = 27.3 bits (59), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 14/28 (50%), Positives = 20/28 (71%), Gaps = 2/28 (7%)
+
+Query: 67  SLTNPHDRHNSEVMIHMG-LHLLTVALE 93
+           +L+NPHDR+ S  M+ +G L +L  ALE
+Sbjct: 435 ALSNPHDRYQSR-MVWLGVLAMLAGALE 461
+
+
+>gi|209964001|ref|YP_002296916.1| pentapeptide repeat family protein
+           [Rhodospirillum centenum SW]
+          Length = 433
+
+ Score = 26.9 bits (58), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 11/38 (28%), Positives = 21/38 (55%)
+
+Query: 119 LSVERLNLYAASLRVCFLLFESMREHLKFQLEMYIKKL 156
+           + +E++NL  ASL+ C ++   +RE L    ++    L
+Sbjct: 281 IGLEKVNLSGASLKHCTMVGAKLRESLLIMTDLVSANL 318
+
+
+>gi|209966631|ref|YP_002299546.1| hypothetical protein RC1_3374
+           [Rhodospirillum centenum SW]
+          Length = 83
+
+ Score = 25.0 bits (53), Expect = 6.9,   Method: Composition-based stats.
+ Identities = 10/30 (33%), Positives = 16/30 (53%)
+
+Query: 268 EAVDGNPETNKSERATSDGKSTGVALDARG 297
+           +A  G P  ++ ++A   G+S G  LD R 
+Sbjct: 54  QAFAGTPSEDERQQALDQGRSRGAFLDIRA 83
+
+
+>gi|209963755|ref|YP_002296670.1| propionyl-CoA carboxylase, beta
+           chain [Rhodospirillum centenum SW]
+          Length = 510
+
+ Score = 25.0 bits (53), Expect = 7.5,   Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 12/16 (75%)
+
+Query: 164 NPKMPYEMKEMALEAV 179
+           NP  PY+MKE+ L+ V
+Sbjct: 276 NPNKPYDMKELILKVV 291
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= B1ART1_MOUSE/1-1424
+         (1424 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964666|ref|YP_002297581.1| arginine-tRNA-protein transfera...    29   1.8  
+gi|209964982|ref|YP_002297897.1| ABC transporter, ATP-binding pr...    28   4.5  
+
+>gi|209964666|ref|YP_002297581.1| arginine-tRNA-protein transferase,
+           putative [Rhodospirillum centenum SW]
+          Length = 249
+
+ Score = 29.3 bits (64), Expect = 1.8,   Method: Composition-based stats.
+ Identities = 21/79 (26%), Positives = 37/79 (46%), Gaps = 6/79 (7%)
+
+Query: 207 TLLGDLPQAELQEAMARSMESRSHHYILEPVC--ASALLKRN---CSKEPLRS-RHSPRI 260
+           T L  L  A++   ++R+   RSH  +  PVC   +A +       + EP R+ R + R 
+Sbjct: 35  TRLSGLQAADINSTLSRAGFRRSHDIVYRPVCPGCTACVPVRIPVAAFEPDRTMRRTLRR 94
+
+Query: 261 ECDIQLETIPLKLSQLQYR 279
+             D+ +  +P + +   YR
+Sbjct: 95  NADLTVTAVPARATLEHYR 113
+
+
+>gi|209964982|ref|YP_002297897.1| ABC transporter, ATP-binding
+            protein, putative [Rhodospirillum centenum SW]
+          Length = 298
+
+ Score = 28.1 bits (61), Expect = 4.5,   Method: Composition-based stats.
+ Identities = 27/104 (25%), Positives = 49/104 (47%), Gaps = 18/104 (17%)
+
+Query: 1099 SLQVNNLDIILNPETIVELIGFLQKSF---PKEKDDVSPQPLMTDLE--RSIVEQGTIQS 1153
+            S++ + +D++  P  + + +G+L + F   P+    VS + ++  L   + IV +G    
+Sbjct: 57   SIRFDGMDVLAEPMRLRQTLGYLPQEFGVYPR----VSAEDMLDHLAMLKGIVNKG---- 108
+
+Query: 1154 TYEQNTEVAVEIHRLNLLLLRT---VGMADGERHGRKIATASIG 1194
+              E+   VA  + + NL  +R     G + G R    IA A IG
+Sbjct: 109  --ERRELVAALLQQTNLYDVRKKALTGFSGGMRQRFGIAQALIG 150
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= A0PJB5_MOUSE/188-602
+         (415 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= CTND2_MOUSE/91-379
+         (289 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209963672|ref|YP_002296587.1| TonB dependent receptor, putati...    28   0.53 
+gi|209967301|ref|YP_002300216.1| fructose-1,6-bisphosphatase [Rh...    28   0.54 
+
+>gi|209963672|ref|YP_002296587.1| TonB dependent receptor, putative
+           [Rhodospirillum centenum SW]
+          Length = 799
+
+ Score = 28.5 bits (62), Expect = 0.53,   Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 18/28 (64%)
+
+Query: 233 LSPIRVTSPPTVQSTISSSPIHQLSSTI 260
+           LSP+ V S  T+ ST+SS  +  L+ TI
+Sbjct: 54  LSPVDVISGDTIDSTVSSELVDSLAQTI 81
+
+
+>gi|209967301|ref|YP_002300216.1| fructose-1,6-bisphosphatase
+           [Rhodospirillum centenum SW]
+          Length = 371
+
+ Score = 28.5 bits (62), Expect = 0.54,   Method: Compositional matrix adjust.
+ Identities = 14/37 (37%), Positives = 19/37 (51%), Gaps = 1/37 (2%)
+
+Query: 196 GAAYAAPRGSSPKQSPSRLAKSYSTSSPINIVVSSAG 232
+           G  +  PR + P   P RL   Y  ++PI +VV  AG
+Sbjct: 266 GGLFMYPRDTRPSCKPGRLRLLYE-ANPIAMVVEQAG 301
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= ESCO1_MOUSE/115-452
+         (338 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Q8CDS1_MOUSE/551-749
+         (199 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209963711|ref|YP_002296626.1| ATP synthase F1, gamma subunit ...    27   1.1  
+gi|209967166|ref|YP_002300081.1| AMP nucleosidase, putative [Rho...    25   2.8  
+
+>gi|209963711|ref|YP_002296626.1| ATP synthase F1, gamma subunit
+           [Rhodospirillum centenum SW]
+          Length = 272
+
+ Score = 26.6 bits (57), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 16/39 (41%), Positives = 19/39 (48%), Gaps = 1/39 (2%)
+
+Query: 146 DALTR-HPHSLAIGPSKEKTLEEHITAFRRRMAFGLPKR 183
+           D L R HPH +A+ P     L  H+    R   FGLP R
+Sbjct: 161 DLLYRTHPHGVALEPLYPAGLPNHVAVPGRAPLFGLPPR 199
+
+
+>gi|209967166|ref|YP_002300081.1| AMP nucleosidase, putative
+           [Rhodospirillum centenum SW]
+          Length = 500
+
+ Score = 25.4 bits (54), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 13/20 (65%)
+
+Query: 154 SLAIGPSKEKTLEEHITAFR 173
+           ++ +GPS  KT+ +HI   R
+Sbjct: 291 NIGVGPSNAKTISDHIAVLR 310
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= K2C71_MOUSE/1-88
+         (88 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= CLC7A_MOUSE/1-98
+         (98 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965427|ref|YP_002298342.1| acyl-CoA dehydrogenase, putativ...    29   0.070
+
+>gi|209965427|ref|YP_002298342.1| acyl-CoA dehydrogenase, putative
+           [Rhodospirillum centenum SW]
+          Length = 599
+
+ Score = 28.9 bits (63), Expect = 0.070,   Method: Composition-based stats.
+ Identities = 13/34 (38%), Positives = 17/34 (50%)
+
+Query: 14  GYTQLDFSTQDIHKRPRGSEKGSRAPSSPWRPIA 47
+           GY    +S      RP+G    +R P+SP  PIA
+Sbjct: 309 GYAGFRYSLDYARTRPQGRPPEARDPASPMIPIA 342
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= DYH2_MOUSE/2955-3133
+         (179 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= XPOT_YEAST/651-1099
+         (449 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= YP169_YEAST/1-71
+         (71 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964983|ref|YP_002297898.1| hypothetical protein RC1_1687 [...    27   0.27 
+gi|209963947|ref|YP_002296862.1| cell division protein FtsW, put...    23   4.6  
+gi|209963420|ref|YP_002296335.1| hypothetical protein RC1_0073 [...    22   5.4  
+gi|209967345|ref|YP_002300260.1| electron transfer flavoprotein,...    22   8.0  
+
+>gi|209964983|ref|YP_002297898.1| hypothetical protein RC1_1687
+           [Rhodospirillum centenum SW]
+          Length = 1211
+
+ Score = 26.9 bits (58), Expect = 0.27,   Method: Composition-based stats.
+ Identities = 10/22 (45%), Positives = 14/22 (63%)
+
+Query: 42  INDPEDGPAYVIFSYLFRRYPF 63
+           + DPE G A +++SY  R  PF
+Sbjct: 79  LRDPESGMAGIVYSYPLRPLPF 100
+
+
+>gi|209963947|ref|YP_002296862.1| cell division protein FtsW,
+           putative [Rhodospirillum centenum SW]
+          Length = 375
+
+ Score = 22.7 bits (47), Expect = 4.6,   Method: Composition-based stats.
+ Identities = 9/25 (36%), Positives = 12/25 (48%)
+
+Query: 8   GKAWCCTVLSAFGVVILSVIAHLFN 32
+           G  WC  ++  F  V+L   A  FN
+Sbjct: 278 GLLWCLLIVGLFAFVVLRGFARAFN 302
+
+
+>gi|209963420|ref|YP_002296335.1| hypothetical protein RC1_0073
+           [Rhodospirillum centenum SW]
+          Length = 571
+
+ Score = 22.3 bits (46), Expect = 5.4,   Method: Composition-based stats.
+ Identities = 12/27 (44%), Positives = 13/27 (48%), Gaps = 2/27 (7%)
+
+Query: 30  LFNTNHESFVGSINDP--EDGPAYVIF 54
+           LF T H    G I  P  E  PA+V F
+Sbjct: 95  LFRTTHPGVYGDIPHPFDEPDPAFVEF 121
+
+
+>gi|209967345|ref|YP_002300260.1| electron transfer flavoprotein,
+           alpha subunit [Rhodospirillum centenum SW]
+          Length = 313
+
+ Score = 21.9 bits (45), Expect = 8.0,   Method: Composition-based stats.
+ Identities = 19/64 (29%), Positives = 25/64 (39%), Gaps = 7/64 (10%)
+
+Query: 4   VVSTGKAWCCTVLSAFGVVILSVIAHLFNTNHESFVGSINDPEDGPAYVIFSY-----LF 58
+           V  TGK     +  A G  I   I HL        + +IN  E+ P + I  Y     LF
+Sbjct: 244 VGQTGKIVAPELYIAVG--ISGAIQHLAGMKDSKVIVAINKDEEAPIFQIADYGLVGDLF 301
+
+Query: 59  RRYP 62
+           +  P
+Sbjct: 302 KVVP 305
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= YE16_YEAST/1-305
+         (305 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209965323|ref|YP_002298238.1| ribosomal protein L11 methyltra...    26   2.9  
+
+>gi|209965323|ref|YP_002298238.1| ribosomal protein L11
+           methyltransferase [Rhodospirillum centenum SW]
+          Length = 289
+
+ Score = 26.2 bits (56), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 19/30 (63%), Gaps = 1/30 (3%)
+
+Query: 202 LNSSLFIIKAAIGCLPEVGDSIEDIPKFDW 231
+           L++ L I+ A++G LPE   +IE I   DW
+Sbjct: 56  LSTKLAILAASLG-LPEPALTIEPIAPIDW 84
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= B0M8U8_YEAST/1-96
+         (96 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209967251|ref|YP_002300166.1| glycosyl transferase, family 2,...    25   0.74 
+gi|209966523|ref|YP_002299438.1| phosphate ABC transporter, perm...    25   0.96 
+gi|209964405|ref|YP_002297320.1| phage-related hypothetical prot...    24   2.0  
+gi|209966325|ref|YP_002299240.1| hypothetical protein RC1_3062 [...    23   4.0  
+gi|209966679|ref|YP_002299594.1| cytochrome c1 [Rhodospirillum c...    23   4.9  
+gi|209967037|ref|YP_002299952.1| sugar isomerase, KpsF [Rhodospi...    22   6.2  
+
+>gi|209967251|ref|YP_002300166.1| glycosyl transferase, family 2,
+           putative [Rhodospirillum centenum SW]
+          Length = 315
+
+ Score = 25.4 bits (54), Expect = 0.74,   Method: Composition-based stats.
+ Identities = 16/38 (42%), Positives = 22/38 (57%), Gaps = 5/38 (13%)
+
+Query: 32  QQEVFNTENFEEGKKDSAFELDHLEFTTNSAQLGDSDE 69
+            Q VF  +NF + K    + LD+LEF T+   L D+DE
+Sbjct: 70  HQRVF--DNFADHKN---WALDNLEFRTDWVLLLDADE 102
+
+
+>gi|209966523|ref|YP_002299438.1| phosphate ABC transporter,
+           permease protein PstA, putative [Rhodospirillum centenum
+           SW]
+          Length = 437
+
+ Score = 25.0 bits (53), Expect = 0.96,   Method: Composition-based stats.
+ Identities = 11/32 (34%), Positives = 18/32 (56%)
+
+Query: 19  DKNISESSRDIVNQQEVFNTENFEEGKKDSAF 50
+           D+ + ESSR + ++Q  +     E+GK  S F
+Sbjct: 166 DRTLPESSRPVSDEQLAWLDRLVEQGKATSVF 197
+
+
+>gi|209964405|ref|YP_002297320.1| phage-related hypothetical
+          protein [Rhodospirillum centenum SW]
+          Length = 158
+
+ Score = 23.9 bits (50), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 10/25 (40%), Positives = 14/25 (56%)
+
+Query: 40 NFEEGKKDSAFELDHLEFTTNSAQL 64
+          N+E  K    FE+DH+   T  AQ+
+Sbjct: 14 NWEPPKVVHRFEVDHVRAATLRAQI 38
+
+
+>gi|209966325|ref|YP_002299240.1| hypothetical protein RC1_3062
+           [Rhodospirillum centenum SW]
+          Length = 278
+
+ Score = 22.7 bits (47), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 12/45 (26%), Positives = 22/45 (48%)
+
+Query: 14  ASKNEDKNISESSRDIVNQQEVFNTENFEEGKKDSAFELDHLEFT 58
+           A ++  ++  ++ RD  ++QE  +    E  + DSA  LD    T
+Sbjct: 60  AGQSPQRDGGDTRRDTASRQETEDRRTAETARNDSAEALDKTRRT 104
+
+
+>gi|209966679|ref|YP_002299594.1| cytochrome c1 [Rhodospirillum
+           centenum SW]
+          Length = 264
+
+ Score = 22.7 bits (47), Expect = 4.9,   Method: Compositional matrix adjust.
+ Identities = 14/39 (35%), Positives = 19/39 (48%)
+
+Query: 48  SAFELDHLEFTTNSAQLGDSDEDNENVINEMNATDDANE 86
+           SA    HL    N A LG S+E+ + +  E   TD  N+
+Sbjct: 71  SACHAMHLLSYRNLAALGYSEEEIKAIAAEYEVTDGPND 109
+
+
+>gi|209967037|ref|YP_002299952.1| sugar isomerase, KpsF
+          [Rhodospirillum centenum SW]
+          Length = 330
+
+ Score = 22.3 bits (46), Expect = 6.2,   Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 18/35 (51%)
+
+Query: 48 SAFELDHLEFTTNSAQLGDSDEDNENVINEMNATD 82
+          SA +L H+E  T  AQ    D+   NV+N +   D
+Sbjct: 10 SARDLLHIEAKTVLAQEQSLDDGFLNVVNHIGTRD 44
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= CYPR_YEAST/227-317
+         (91 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209967155|ref|YP_002300070.1| hypothetical protein RC1_3916 [...    25   0.67 
+
+>gi|209967155|ref|YP_002300070.1| hypothetical protein RC1_3916
+           [Rhodospirillum centenum SW]
+          Length = 432
+
+ Score = 25.4 bits (54), Expect = 0.67,   Method: Composition-based stats.
+ Identities = 11/21 (52%), Positives = 12/21 (57%)
+
+Query: 39  DKAYTPLTTSTGTTAYDLNHP 59
+           D+A   LT  TGT A D N P
+Sbjct: 245 DRAVARLTAVTGTDALDFNDP 265
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= PT494_YEAST/251-488
+         (238 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+ ***** No hits found ******
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= YD357_YEAST/1-121
+         (121 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209963914|ref|YP_002296829.1| TonB-dependent receptor, putati...    25   1.4  
+gi|209966483|ref|YP_002299398.1| photoactive yellow protein [Rho...    23   5.6  
+
+>gi|209963914|ref|YP_002296829.1| TonB-dependent receptor, putative
+           [Rhodospirillum centenum SW]
+          Length = 988
+
+ Score = 25.0 bits (53), Expect = 1.4,   Method: Composition-based stats.
+ Identities = 10/22 (45%), Positives = 13/22 (59%)
+
+Query: 24  LTVDYDYLLYKMRDYVQSIQLD 45
+           LTV +DY   K+ DY+  I  D
+Sbjct: 736 LTVSFDYFDIKVEDYISGIGAD 757
+
+
+>gi|209966483|ref|YP_002299398.1| photoactive yellow protein
+           [Rhodospirillum centenum SW]
+          Length = 883
+
+ Score = 23.1 bits (48), Expect = 5.6,   Method: Composition-based stats.
+ Identities = 9/24 (37%), Positives = 15/24 (62%)
+
+Query: 34  KMRDYVQSIQLDTTELCKKQNEVM 57
+           +++DYVQSI      L +  N+V+
+Sbjct: 697 RIQDYVQSIHASGEHLLRMVNDVL 720
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RT107_YEAST/551-1069
+         (519 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209964568|ref|YP_002297483.1| transcription-repair coupling f...    25   9.1  
+
+>gi|209964568|ref|YP_002297483.1| transcription-repair coupling
+           factor [Rhodospirillum centenum SW]
+          Length = 1209
+
+ Score = 25.4 bits (54), Expect = 9.1,   Method: Compositional matrix adjust.
+ Identities = 11/23 (47%), Positives = 15/23 (65%)
+
+Query: 416 GGVDTIGSVLKAHGIEKINVLRS 438
+           G  D + SVLK HGIE++  + S
+Sbjct: 413 GARDRLRSVLKEHGIERVKAVES 435
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= SNF6_YEAST/1-331
+         (331 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209966029|ref|YP_002298944.1| hypothetical protein RC1_2759 [...    26   4.3  
+
+>gi|209966029|ref|YP_002298944.1| hypothetical protein RC1_2759
+           [Rhodospirillum centenum SW]
+          Length = 1165
+
+ Score = 25.8 bits (55), Expect = 4.3,   Method: Composition-based stats.
+ Identities = 15/52 (28%), Positives = 23/52 (44%), Gaps = 3/52 (5%)
+
+Query: 159 LQEKPLTP---LKYTKLIAAAEDGSRSTKDMIDAVFEQDSHLRYQPDGVVVH 207
+           L E+P TP   L +   + A E    +  D +DA  +  +   Y P G  +H
+Sbjct: 131 LAEEPGTPAFELAFATAVQAWEADEAANADRLDAALKYGAWALYAPAGRALH 182
+
+
+BLASTP 2.2.23 [Feb-03-2010]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= HPH1_YEAST/421-601
+         (181 letters)
+
+Database: NC_011420.faa 
+           4002 sequences; 1,260,545 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|209963665|ref|YP_002296580.1| anaerobic ribonucleoside-tripho...    26   1.8  
+
+>gi|209963665|ref|YP_002296580.1| anaerobic
+           ribonucleoside-triphosphate reductase [Rhodospirillum
+           centenum SW]
+          Length = 675
+
+ Score = 25.8 bits (55), Expect = 1.8,   Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 14/25 (56%)
+
+Query: 9   LNYYQNHISTLLVKIENEMRRNLND 33
+           L   +NH STL V   NEM RN  D
+Sbjct: 474 LGTLRNHFSTLGVNGINEMIRNFTD 498
+
+
+  Database: NC_011420.faa
+    Posted date:  May 26, 2014  2:34 PM
+  Number of letters in database: 1,260,545
+  Number of sequences in database:  4002
+  
+Lambda     K      H
+   0.315    0.130    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4002
+Number of Hits to DB: 36,134,017
+Number of extensions: 1394737
+Number of successful extensions: 2575
+Number of sequences better than 10.0: 295
+Number of HSP's gapped: 2545
+Number of HSP's successfully gapped: 351
+Length of database: 1,260,545
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 6.8 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (21.1 bits)
+S2: 44 (21.6 bits)
